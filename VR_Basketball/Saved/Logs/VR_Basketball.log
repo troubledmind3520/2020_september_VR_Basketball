@@ -2270,3 +2270,1258 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.09.04-03.46.23:335][103]LogContentValidation: Display: Validating World /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap
 [2020.09.04-03.46.23:335][103]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/VirtualRealityBP/Maps/MotionControllerMap_BuiltData.MotionControllerMap_BuiltData
 [2020.09.04-03.46.41:421][459]LogUObjectHash: Compacting FUObjectHashTables data took   3.03ms
+[2020.09.04-03.47.44:626][365]LogFactory: FactoryCreateFile: FontFace with FontFileImportFactory (0 0 C:\Users\IM\Desktop\mamelon\Mamelon.otf)
+[2020.09.04-03.47.46:886][365]LogSlate: Window 'Font Face Import Options' being destroyed
+[2020.09.04-03.47.46:928][365]LogSlate: FontCache flush requested. Reason: UFontFace::PostEditChangeProperty
+[2020.09.04-03.47.46:936][365]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.04-03.47.46:938][365]LogSlate: Took 0.000118 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.09.04-03.47.46:955][365]LogSlate: Took 0.000101 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.09.04-03.47.46:956][365]LogSlate: Took 0.000083 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.09.04-03.47.46:957][365]LogSlate: Took 0.000736 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2020.09.04-03.47.46:962][365]LogSlate: Took 0.000093 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.09.04-03.47.46:968][365]LogSlate: Took 0.000086 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.09.04-03.48.40:845][864]LogAudioMixer: Warning: Changing default audio render device to new device: .
+[2020.09.04-03.48.40:845][864]LogTemp: Resetting audio stream to device id 
+[2020.09.04-03.51.08:094][303]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{3088183b-517c-4fcf-9495-f857c291c84b}.
+[2020.09.04-03.51.08:095][303]LogTemp: Resetting audio stream to device id 
+[2020.09.04-03.51.08:116][303]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.09.04-03.51.08:116][303]LogAudioMixer: Display: Name: 喇叭 (Realtek(R) Audio)
+[2020.09.04-03.51.08:116][303]LogAudioMixer: Display: Is Default: Yes
+[2020.09.04-03.51.08:116][303]LogAudioMixer: Display: Sample Rate: 48000
+[2020.09.04-03.51.08:116][303]LogAudioMixer: Display: Channel Count Used: 2
+[2020.09.04-03.51.08:116][303]LogAudioMixer: Display: Device Channel Count: 2
+[2020.09.04-03.51.08:116][303]LogAudioMixer: Display: Channel Order:
+[2020.09.04-03.51.08:116][303]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.04-03.51.08:116][303]LogAudioMixer: Display: 1: FrontRight
+[2020.09.04-03.52.01:813][889]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/素材/F_中文字體_Mamelon" FILE="../../../../../../Users/IM/Desktop/2020_september_VR_Basketball/VR_Basketball/Content/素材/F_中文字體_Mamelon.uasset" SILENT=true
+[2020.09.04-03.52.01:841][889]LogSavePackage: Moving '../../../../../../Users/IM/Desktop/2020_september_VR_Basketball/VR_Basketball/Saved/F_中文字體_Mamelon2436628645C7E3FA7A3ED1A4A3F1D8BB.tmp' to '../../../../../../Users/IM/Desktop/2020_september_VR_Basketball/VR_Basketball/Content/素材/F_中文字體_Mamelon.uasset'
+[2020.09.04-03.52.02:043][889]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2020.09.04-03.52.02:079][889]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2020.09.04-03.52.02:112][889]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2020.09.04-03.52.02:145][889]AssetCheck: New page: Asset Save: F_中文字體_Mamelon
+[2020.09.04-03.52.02:145][889]LogContentValidation: Display: Validating Font /Game/素材/F_中文字體_Mamelon.F_中文字體_Mamelon
+[2020.09.04-03.52.07:196][138]LogAssetEditorSubsystem: Opening Asset editor for Font /Game/素材/F_中文字體_Mamelon.F_中文字體_Mamelon
+[2020.09.04-03.52.10:868][393]LogSlate: Window 'Really change the font cache type?' being destroyed
+[2020.09.04-03.52.30:399][393]LogFactory: FactoryCreateNew: Font with TrueTypeFontFactory (1 0 )
+[2020.09.04-03.52.30:446][393]LogTTFontImport: OutPutGlyph X=1 Y=1 FontHeight=21 FontWidth=20 Char=0000 U=1 V=2 =Usize=20 VSIze=21
+[2020.09.04-03.52.30:447][393]LogTTFontImport: OutPutGlyph X=22 Y=1 FontHeight=21 FontWidth=20 Char=0001 U=22 V=2 =Usize=20 VSIze=21
+[2020.09.04-03.52.30:447][393]LogTTFontImport: OutPutGlyph X=43 Y=1 FontHeight=21 FontWidth=20 Char=0002 U=43 V=2 =Usize=20 VSIze=21
+[2020.09.04-03.52.30:447][393]LogTTFontImport: OutPutGlyph X=64 Y=1 FontHeight=21 FontWidth=20 Char=0003 U=64 V=2 =Usize=20 VSIze=21
+[2020.09.04-03.52.30:447][393]LogTTFontImport: OutPutGlyph X=85 Y=1 FontHeight=21 FontWidth=20 Char=0004 U=85 V=2 =Usize=20 VSIze=21
+[2020.09.04-03.52.30:447][393]LogTTFontImport: OutPutGlyph X=106 Y=1 FontHeight=21 FontWidth=20 Char=0005 U=106 V=2 =Usize=20 VSIze=21
+[2020.09.04-03.52.30:447][393]LogTTFontImport: OutPutGlyph X=127 Y=1 FontHeight=21 FontWidth=20 Char=0006 U=127 V=2 =Usize=20 VSIze=21
+[2020.09.04-03.52.30:447][393]LogTTFontImport: OutPutGlyph X=148 Y=1 FontHeight=21 FontWidth=20 Char=0007 U=148 V=2 =Usize=20 VSIze=21
+[2020.09.04-03.52.30:447][393]LogTTFontImport: OutPutGlyph X=169 Y=1 FontHeight=21 FontWidth=20 Char=0008 U=169 V=2 =Usize=20 VSIze=21
+[2020.09.04-03.52.30:447][393]LogTTFontImport: OutPutGlyph X=190 Y=1 FontHeight=21 FontWidth=20 Char=0009 U=190 V=2 =Usize=20 VSIze=21
+[2020.09.04-03.52.30:447][393]LogTTFontImport: OutPutGlyph X=211 Y=1 FontHeight=21 FontWidth=20 Char=000a U=211 V=2 =Usize=20 VSIze=21
+[2020.09.04-03.52.30:447][393]LogTTFontImport: OutPutGlyph X=232 Y=1 FontHeight=21 FontWidth=20 Char=000b U=232 V=2 =Usize=20 VSIze=21
+[2020.09.04-03.52.30:447][393]LogTTFontImport: OutPutGlyph X=1 Y=23 FontHeight=21 FontWidth=5 Char=000c U=1 V=24 =Usize=5 VSIze=21
+[2020.09.04-03.52.30:447][393]LogTTFontImport: OutPutGlyph X=7 Y=23 FontHeight=21 FontWidth=20 Char=000d U=7 V=24 =Usize=20 VSIze=21
+[2020.09.04-03.52.30:447][393]LogTTFontImport: OutPutGlyph X=28 Y=23 FontHeight=21 FontWidth=20 Char=000e U=28 V=24 =Usize=20 VSIze=21
+[2020.09.04-03.52.30:448][393]LogTTFontImport: OutPutGlyph X=49 Y=23 FontHeight=21 FontWidth=20 Char=000f U=49 V=24 =Usize=20 VSIze=21
+[2020.09.04-03.52.30:452][393]LogTTFontImport: OutPutGlyph X=70 Y=23 FontHeight=21 FontWidth=5 Char=0010 U=70 V=24 =Usize=5 VSIze=21
+[2020.09.04-03.52.30:453][393]LogTTFontImport: OutPutGlyph X=76 Y=23 FontHeight=21 FontWidth=5 Char=0011 U=76 V=24 =Usize=5 VSIze=21
+[2020.09.04-03.52.30:453][393]LogTTFontImport: OutPutGlyph X=82 Y=23 FontHeight=21 FontWidth=5 Char=0012 U=82 V=24 =Usize=5 VSIze=21
+[2020.09.04-03.52.30:453][393]LogTTFontImport: OutPutGlyph X=88 Y=23 FontHeight=21 FontWidth=5 Char=0013 U=88 V=24 =Usize=5 VSIze=21
+[2020.09.04-03.52.30:453][393]LogTTFontImport: OutPutGlyph X=94 Y=23 FontHeight=21 FontWidth=5 Char=0014 U=94 V=24 =Usize=5 VSIze=21
+[2020.09.04-03.52.30:454][393]LogTTFontImport: OutPutGlyph X=100 Y=23 FontHeight=21 FontWidth=5 Char=0015 U=100 V=24 =Usize=5 VSIze=21
+[2020.09.04-03.52.30:454][393]LogTTFontImport: OutPutGlyph X=106 Y=23 FontHeight=21 FontWidth=5 Char=0016 U=106 V=24 =Usize=5 VSIze=21
+[2020.09.04-03.52.30:454][393]LogTTFontImport: OutPutGlyph X=112 Y=23 FontHeight=21 FontWidth=5 Char=0017 U=112 V=24 =Usize=5 VSIze=21
+[2020.09.04-03.52.30:454][393]LogTTFontImport: OutPutGlyph X=118 Y=23 FontHeight=21 FontWidth=5 Char=0018 U=118 V=24 =Usize=5 VSIze=21
+[2020.09.04-03.52.30:454][393]LogTTFontImport: OutPutGlyph X=124 Y=23 FontHeight=21 FontWidth=5 Char=0019 U=124 V=24 =Usize=5 VSIze=21
+[2020.09.04-03.52.30:454][393]LogTTFontImport: OutPutGlyph X=130 Y=23 FontHeight=21 FontWidth=5 Char=001a U=130 V=24 =Usize=5 VSIze=21
+[2020.09.04-03.52.30:455][393]LogTTFontImport: OutPutGlyph X=136 Y=23 FontHeight=21 FontWidth=5 Char=001b U=136 V=24 =Usize=5 VSIze=21
+[2020.09.04-03.52.30:455][393]LogTTFontImport: OutPutGlyph X=142 Y=23 FontHeight=21 FontWidth=0 Char=001c U=142 V=24 =Usize=0 VSIze=21
+[2020.09.04-03.52.30:455][393]LogTTFontImport: OutPutGlyph X=143 Y=23 FontHeight=21 FontWidth=0 Char=001d U=143 V=24 =Usize=0 VSIze=21
+[2020.09.04-03.52.30:455][393]LogTTFontImport: OutPutGlyph X=144 Y=23 FontHeight=21 FontWidth=0 Char=001e U=144 V=24 =Usize=0 VSIze=21
+[2020.09.04-03.52.30:455][393]LogTTFontImport: OutPutGlyph X=145 Y=23 FontHeight=21 FontWidth=0 Char=001f U=145 V=24 =Usize=0 VSIze=21
+[2020.09.04-03.52.30:456][393]LogTTFontImport: OutPutGlyph X=146 Y=23 FontHeight=21 FontWidth=5 Char=0020 U=146 V=24 =Usize=5 VSIze=21
+[2020.09.04-03.52.30:466][393]LogTTFontImport: OutPutGlyph X=19 Y=102 FontHeight=21 FontWidth=4 Char=007f U=19 V=103 =Usize=4 VSIze=21
+[2020.09.04-03.52.30:466][393]LogTTFontImport: OutPutGlyph X=24 Y=102 FontHeight=21 FontWidth=0 Char=0080 U=24 V=103 =Usize=0 VSIze=21
+[2020.09.04-03.52.30:466][393]LogTTFontImport: OutPutGlyph X=25 Y=102 FontHeight=21 FontWidth=0 Char=0081 U=25 V=103 =Usize=0 VSIze=21
+[2020.09.04-03.52.30:466][393]LogTTFontImport: OutPutGlyph X=26 Y=102 FontHeight=21 FontWidth=0 Char=0082 U=26 V=103 =Usize=0 VSIze=21
+[2020.09.04-03.52.30:466][393]LogTTFontImport: OutPutGlyph X=27 Y=102 FontHeight=21 FontWidth=0 Char=0083 U=27 V=103 =Usize=0 VSIze=21
+[2020.09.04-03.52.30:467][393]LogTTFontImport: OutPutGlyph X=28 Y=102 FontHeight=21 FontWidth=0 Char=0084 U=28 V=103 =Usize=0 VSIze=21
+[2020.09.04-03.52.30:467][393]LogTTFontImport: OutPutGlyph X=29 Y=102 FontHeight=21 FontWidth=0 Char=0085 U=29 V=103 =Usize=0 VSIze=21
+[2020.09.04-03.52.30:467][393]LogTTFontImport: OutPutGlyph X=30 Y=102 FontHeight=21 FontWidth=0 Char=0086 U=30 V=103 =Usize=0 VSIze=21
+[2020.09.04-03.52.30:467][393]LogTTFontImport: OutPutGlyph X=31 Y=102 FontHeight=21 FontWidth=0 Char=0087 U=31 V=103 =Usize=0 VSIze=21
+[2020.09.04-03.52.30:467][393]LogTTFontImport: OutPutGlyph X=32 Y=102 FontHeight=21 FontWidth=0 Char=0088 U=32 V=103 =Usize=0 VSIze=21
+[2020.09.04-03.52.30:468][393]LogTTFontImport: OutPutGlyph X=33 Y=102 FontHeight=21 FontWidth=0 Char=0089 U=33 V=103 =Usize=0 VSIze=21
+[2020.09.04-03.52.30:468][393]LogTTFontImport: OutPutGlyph X=34 Y=102 FontHeight=21 FontWidth=0 Char=008a U=34 V=103 =Usize=0 VSIze=21
+[2020.09.04-03.52.30:468][393]LogTTFontImport: OutPutGlyph X=35 Y=102 FontHeight=21 FontWidth=0 Char=008b U=35 V=103 =Usize=0 VSIze=21
+[2020.09.04-03.52.30:468][393]LogTTFontImport: OutPutGlyph X=36 Y=102 FontHeight=21 FontWidth=0 Char=008c U=36 V=103 =Usize=0 VSIze=21
+[2020.09.04-03.52.30:468][393]LogTTFontImport: OutPutGlyph X=37 Y=102 FontHeight=21 FontWidth=0 Char=008d U=37 V=103 =Usize=0 VSIze=21
+[2020.09.04-03.52.30:468][393]LogTTFontImport: OutPutGlyph X=38 Y=102 FontHeight=21 FontWidth=0 Char=008e U=38 V=103 =Usize=0 VSIze=21
+[2020.09.04-03.52.30:469][393]LogTTFontImport: OutPutGlyph X=39 Y=102 FontHeight=21 FontWidth=0 Char=008f U=39 V=103 =Usize=0 VSIze=21
+[2020.09.04-03.52.30:469][393]LogTTFontImport: OutPutGlyph X=40 Y=102 FontHeight=21 FontWidth=0 Char=0090 U=40 V=103 =Usize=0 VSIze=21
+[2020.09.04-03.52.30:469][393]LogTTFontImport: OutPutGlyph X=41 Y=102 FontHeight=21 FontWidth=0 Char=0091 U=41 V=103 =Usize=0 VSIze=21
+[2020.09.04-03.52.30:469][393]LogTTFontImport: OutPutGlyph X=42 Y=102 FontHeight=21 FontWidth=0 Char=0092 U=42 V=103 =Usize=0 VSIze=21
+[2020.09.04-03.52.30:469][393]LogTTFontImport: OutPutGlyph X=43 Y=102 FontHeight=21 FontWidth=0 Char=0093 U=43 V=103 =Usize=0 VSIze=21
+[2020.09.04-03.52.30:469][393]LogTTFontImport: OutPutGlyph X=44 Y=102 FontHeight=21 FontWidth=0 Char=0094 U=44 V=103 =Usize=0 VSIze=21
+[2020.09.04-03.52.30:470][393]LogTTFontImport: OutPutGlyph X=45 Y=102 FontHeight=21 FontWidth=0 Char=0095 U=45 V=103 =Usize=0 VSIze=21
+[2020.09.04-03.52.30:470][393]LogTTFontImport: OutPutGlyph X=46 Y=102 FontHeight=21 FontWidth=0 Char=0096 U=46 V=103 =Usize=0 VSIze=21
+[2020.09.04-03.52.30:470][393]LogTTFontImport: OutPutGlyph X=47 Y=102 FontHeight=21 FontWidth=0 Char=0097 U=47 V=103 =Usize=0 VSIze=21
+[2020.09.04-03.52.30:470][393]LogTTFontImport: OutPutGlyph X=48 Y=102 FontHeight=21 FontWidth=0 Char=0098 U=48 V=103 =Usize=0 VSIze=21
+[2020.09.04-03.52.30:470][393]LogTTFontImport: OutPutGlyph X=49 Y=102 FontHeight=21 FontWidth=0 Char=0099 U=49 V=103 =Usize=0 VSIze=21
+[2020.09.04-03.52.30:471][393]LogTTFontImport: OutPutGlyph X=50 Y=102 FontHeight=21 FontWidth=0 Char=009a U=50 V=103 =Usize=0 VSIze=21
+[2020.09.04-03.52.30:471][393]LogTTFontImport: OutPutGlyph X=51 Y=102 FontHeight=21 FontWidth=0 Char=009b U=51 V=103 =Usize=0 VSIze=21
+[2020.09.04-03.52.30:471][393]LogTTFontImport: OutPutGlyph X=52 Y=102 FontHeight=21 FontWidth=0 Char=009c U=52 V=103 =Usize=0 VSIze=21
+[2020.09.04-03.52.30:471][393]LogTTFontImport: OutPutGlyph X=53 Y=102 FontHeight=21 FontWidth=0 Char=009d U=53 V=103 =Usize=0 VSIze=21
+[2020.09.04-03.52.30:471][393]LogTTFontImport: OutPutGlyph X=54 Y=102 FontHeight=21 FontWidth=0 Char=009e U=54 V=103 =Usize=0 VSIze=21
+[2020.09.04-03.52.30:472][393]LogTTFontImport: OutPutGlyph X=55 Y=102 FontHeight=21 FontWidth=0 Char=009f U=55 V=103 =Usize=0 VSIze=21
+[2020.09.04-03.52.30:472][393]LogTTFontImport: OutPutGlyph X=56 Y=102 FontHeight=21 FontWidth=20 Char=00a0 U=56 V=103 =Usize=20 VSIze=21
+[2020.09.04-03.52.30:472][393]LogTTFontImport: OutPutGlyph X=77 Y=102 FontHeight=21 FontWidth=10 Char=00a1 U=77 V=103 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:472][393]LogTTFontImport: OutPutGlyph X=88 Y=102 FontHeight=21 FontWidth=10 Char=00a2 U=88 V=103 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:472][393]LogTTFontImport: OutPutGlyph X=99 Y=102 FontHeight=21 FontWidth=10 Char=00a3 U=99 V=103 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:472][393]LogTTFontImport: OutPutGlyph X=110 Y=102 FontHeight=21 FontWidth=10 Char=00a4 U=110 V=103 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:473][393]LogTTFontImport: OutPutGlyph X=132 Y=102 FontHeight=21 FontWidth=10 Char=00a6 U=132 V=103 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:473][393]LogTTFontImport: OutPutGlyph X=185 Y=102 FontHeight=21 FontWidth=10 Char=00aa U=185 V=103 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:473][393]LogTTFontImport: OutPutGlyph X=196 Y=102 FontHeight=21 FontWidth=10 Char=00ab U=196 V=103 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:473][393]LogTTFontImport: OutPutGlyph X=207 Y=102 FontHeight=21 FontWidth=10 Char=00ac U=207 V=103 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:474][393]LogTTFontImport: OutPutGlyph X=218 Y=102 FontHeight=21 FontWidth=10 Char=00ad U=218 V=103 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:474][393]LogTTFontImport: OutPutGlyph X=240 Y=102 FontHeight=21 FontWidth=10 Char=00af U=240 V=103 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:474][393]LogTTFontImport: OutPutGlyph X=1 Y=124 FontHeight=21 FontWidth=20 Char=00b0 U=1 V=125 =Usize=20 VSIze=21
+[2020.09.04-03.52.30:474][393]LogTTFontImport: OutPutGlyph X=38 Y=124 FontHeight=21 FontWidth=10 Char=00b2 U=38 V=125 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:474][393]LogTTFontImport: OutPutGlyph X=49 Y=124 FontHeight=21 FontWidth=10 Char=00b3 U=49 V=125 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:474][393]LogTTFontImport: OutPutGlyph X=65 Y=124 FontHeight=21 FontWidth=10 Char=00b5 U=65 V=125 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:474][393]LogTTFontImport: OutPutGlyph X=96 Y=124 FontHeight=21 FontWidth=10 Char=00b7 U=96 V=125 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:474][393]LogTTFontImport: OutPutGlyph X=107 Y=124 FontHeight=21 FontWidth=10 Char=00b8 U=107 V=125 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:475][393]LogTTFontImport: OutPutGlyph X=118 Y=124 FontHeight=21 FontWidth=10 Char=00b9 U=118 V=125 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:475][393]LogTTFontImport: OutPutGlyph X=129 Y=124 FontHeight=21 FontWidth=10 Char=00ba U=129 V=125 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:475][393]LogTTFontImport: OutPutGlyph X=140 Y=124 FontHeight=21 FontWidth=10 Char=00bb U=140 V=125 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:475][393]LogTTFontImport: OutPutGlyph X=151 Y=124 FontHeight=21 FontWidth=10 Char=00bc U=151 V=125 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:475][393]LogTTFontImport: OutPutGlyph X=162 Y=124 FontHeight=21 FontWidth=10 Char=00bd U=162 V=125 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:475][393]LogTTFontImport: OutPutGlyph X=173 Y=124 FontHeight=21 FontWidth=10 Char=00be U=173 V=125 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:475][393]LogTTFontImport: OutPutGlyph X=184 Y=124 FontHeight=21 FontWidth=10 Char=00bf U=184 V=125 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:475][393]LogTTFontImport: OutPutGlyph X=195 Y=124 FontHeight=21 FontWidth=10 Char=00c0 U=195 V=125 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:476][393]LogTTFontImport: OutPutGlyph X=206 Y=124 FontHeight=21 FontWidth=10 Char=00c1 U=206 V=125 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:476][393]LogTTFontImport: OutPutGlyph X=217 Y=124 FontHeight=21 FontWidth=10 Char=00c2 U=217 V=125 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:476][393]LogTTFontImport: OutPutGlyph X=228 Y=124 FontHeight=21 FontWidth=10 Char=00c3 U=228 V=125 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:476][393]LogTTFontImport: OutPutGlyph X=239 Y=124 FontHeight=21 FontWidth=10 Char=00c4 U=239 V=125 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:476][393]LogTTFontImport: OutPutGlyph X=1 Y=146 FontHeight=21 FontWidth=10 Char=00c5 U=1 V=147 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:476][393]LogTTFontImport: OutPutGlyph X=12 Y=146 FontHeight=21 FontWidth=10 Char=00c6 U=12 V=147 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:476][393]LogTTFontImport: OutPutGlyph X=23 Y=146 FontHeight=21 FontWidth=10 Char=00c7 U=23 V=147 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:476][393]LogTTFontImport: OutPutGlyph X=34 Y=146 FontHeight=21 FontWidth=10 Char=00c8 U=34 V=147 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:476][393]LogTTFontImport: OutPutGlyph X=45 Y=146 FontHeight=21 FontWidth=10 Char=00c9 U=45 V=147 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:476][393]LogTTFontImport: OutPutGlyph X=56 Y=146 FontHeight=21 FontWidth=10 Char=00ca U=56 V=147 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:476][393]LogTTFontImport: OutPutGlyph X=67 Y=146 FontHeight=21 FontWidth=10 Char=00cb U=67 V=147 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:476][393]LogTTFontImport: OutPutGlyph X=78 Y=146 FontHeight=21 FontWidth=10 Char=00cc U=78 V=147 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:476][393]LogTTFontImport: OutPutGlyph X=89 Y=146 FontHeight=21 FontWidth=10 Char=00cd U=89 V=147 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:476][393]LogTTFontImport: OutPutGlyph X=100 Y=146 FontHeight=21 FontWidth=10 Char=00ce U=100 V=147 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:476][393]LogTTFontImport: OutPutGlyph X=111 Y=146 FontHeight=21 FontWidth=10 Char=00cf U=111 V=147 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:477][393]LogTTFontImport: OutPutGlyph X=122 Y=146 FontHeight=21 FontWidth=10 Char=00d0 U=122 V=147 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:477][393]LogTTFontImport: OutPutGlyph X=133 Y=146 FontHeight=21 FontWidth=10 Char=00d1 U=133 V=147 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:477][393]LogTTFontImport: OutPutGlyph X=144 Y=146 FontHeight=21 FontWidth=10 Char=00d2 U=144 V=147 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:477][393]LogTTFontImport: OutPutGlyph X=155 Y=146 FontHeight=21 FontWidth=10 Char=00d3 U=155 V=147 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:477][393]LogTTFontImport: OutPutGlyph X=166 Y=146 FontHeight=21 FontWidth=10 Char=00d4 U=166 V=147 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:477][393]LogTTFontImport: OutPutGlyph X=177 Y=146 FontHeight=21 FontWidth=10 Char=00d5 U=177 V=147 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:477][393]LogTTFontImport: OutPutGlyph X=188 Y=146 FontHeight=21 FontWidth=10 Char=00d6 U=188 V=147 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:477][393]LogTTFontImport: OutPutGlyph X=211 Y=146 FontHeight=21 FontWidth=10 Char=00d8 U=211 V=147 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:477][393]LogTTFontImport: OutPutGlyph X=222 Y=146 FontHeight=21 FontWidth=10 Char=00d9 U=222 V=147 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:477][393]LogTTFontImport: OutPutGlyph X=233 Y=146 FontHeight=21 FontWidth=10 Char=00da U=233 V=147 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:477][393]LogTTFontImport: OutPutGlyph X=244 Y=146 FontHeight=21 FontWidth=10 Char=00db U=244 V=147 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:477][393]LogTTFontImport: OutPutGlyph X=1 Y=168 FontHeight=21 FontWidth=10 Char=00dc U=1 V=169 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:477][393]LogTTFontImport: OutPutGlyph X=12 Y=168 FontHeight=21 FontWidth=10 Char=00dd U=12 V=169 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:478][393]LogTTFontImport: OutPutGlyph X=23 Y=168 FontHeight=21 FontWidth=10 Char=00de U=23 V=169 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:478][393]LogTTFontImport: OutPutGlyph X=34 Y=168 FontHeight=21 FontWidth=10 Char=00df U=34 V=169 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:478][393]LogTTFontImport: OutPutGlyph X=45 Y=168 FontHeight=21 FontWidth=10 Char=00e0 U=45 V=169 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:478][393]LogTTFontImport: OutPutGlyph X=56 Y=168 FontHeight=21 FontWidth=10 Char=00e1 U=56 V=169 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:478][393]LogTTFontImport: OutPutGlyph X=67 Y=168 FontHeight=21 FontWidth=10 Char=00e2 U=67 V=169 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:478][393]LogTTFontImport: OutPutGlyph X=78 Y=168 FontHeight=21 FontWidth=10 Char=00e3 U=78 V=169 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:478][393]LogTTFontImport: OutPutGlyph X=89 Y=168 FontHeight=21 FontWidth=10 Char=00e4 U=89 V=169 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:478][393]LogTTFontImport: OutPutGlyph X=100 Y=168 FontHeight=21 FontWidth=10 Char=00e5 U=100 V=169 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:478][393]LogTTFontImport: OutPutGlyph X=111 Y=168 FontHeight=21 FontWidth=10 Char=00e6 U=111 V=169 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:478][393]LogTTFontImport: OutPutGlyph X=122 Y=168 FontHeight=21 FontWidth=10 Char=00e7 U=122 V=169 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:478][393]LogTTFontImport: OutPutGlyph X=133 Y=168 FontHeight=21 FontWidth=10 Char=00e8 U=133 V=169 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:478][393]LogTTFontImport: OutPutGlyph X=144 Y=168 FontHeight=21 FontWidth=10 Char=00e9 U=144 V=169 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:478][393]LogTTFontImport: OutPutGlyph X=155 Y=168 FontHeight=21 FontWidth=10 Char=00ea U=155 V=169 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:478][393]LogTTFontImport: OutPutGlyph X=166 Y=168 FontHeight=21 FontWidth=10 Char=00eb U=166 V=169 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:479][393]LogTTFontImport: OutPutGlyph X=177 Y=168 FontHeight=21 FontWidth=10 Char=00ec U=177 V=169 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:479][393]LogTTFontImport: OutPutGlyph X=188 Y=168 FontHeight=21 FontWidth=10 Char=00ed U=188 V=169 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:479][393]LogTTFontImport: OutPutGlyph X=199 Y=168 FontHeight=21 FontWidth=10 Char=00ee U=199 V=169 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:479][393]LogTTFontImport: OutPutGlyph X=210 Y=168 FontHeight=21 FontWidth=10 Char=00ef U=210 V=169 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:479][393]LogTTFontImport: OutPutGlyph X=221 Y=168 FontHeight=21 FontWidth=10 Char=00f0 U=221 V=169 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:479][393]LogTTFontImport: OutPutGlyph X=232 Y=168 FontHeight=21 FontWidth=10 Char=00f1 U=232 V=169 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:479][393]LogTTFontImport: OutPutGlyph X=243 Y=168 FontHeight=21 FontWidth=10 Char=00f2 U=243 V=169 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:480][393]LogTTFontImport: OutPutGlyph X=1 Y=190 FontHeight=21 FontWidth=10 Char=00f3 U=1 V=191 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:480][393]LogTTFontImport: OutPutGlyph X=12 Y=190 FontHeight=21 FontWidth=10 Char=00f4 U=12 V=191 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:480][393]LogTTFontImport: OutPutGlyph X=23 Y=190 FontHeight=21 FontWidth=10 Char=00f5 U=23 V=191 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:480][393]LogTTFontImport: OutPutGlyph X=34 Y=190 FontHeight=21 FontWidth=10 Char=00f6 U=34 V=191 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:480][393]LogTTFontImport: OutPutGlyph X=59 Y=190 FontHeight=21 FontWidth=10 Char=00f8 U=59 V=191 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:480][393]LogTTFontImport: OutPutGlyph X=70 Y=190 FontHeight=21 FontWidth=10 Char=00f9 U=70 V=191 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:480][393]LogTTFontImport: OutPutGlyph X=81 Y=190 FontHeight=21 FontWidth=10 Char=00fa U=81 V=191 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:480][393]LogTTFontImport: OutPutGlyph X=92 Y=190 FontHeight=21 FontWidth=10 Char=00fb U=92 V=191 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:480][393]LogTTFontImport: OutPutGlyph X=103 Y=190 FontHeight=21 FontWidth=10 Char=00fc U=103 V=191 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:480][393]LogTTFontImport: OutPutGlyph X=114 Y=190 FontHeight=21 FontWidth=10 Char=00fd U=114 V=191 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:480][393]LogTTFontImport: OutPutGlyph X=125 Y=190 FontHeight=21 FontWidth=10 Char=00fe U=125 V=191 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:480][393]LogTTFontImport: OutPutGlyph X=136 Y=190 FontHeight=21 FontWidth=10 Char=00ff U=136 V=191 =Usize=10 VSIze=21
+[2020.09.04-03.52.30:482][393]LogTexture: Display: Building textures: F_中文字體_Mamelon_PageA (AutoDXT, 256X256)
+[2020.09.04-03.52.30:484][393]LogTTFontImport: ImportTrueTypeFont: Total Time 0.04
+[2020.09.04-03.53.36:866][785]LogFactory: FactoryCreateNew: Font with TrueTypeFontFactory (1 0 )
+[2020.09.04-03.53.36:894][785]LogTTFontImport: Warning: Importing 261 characters (unicode range 6578-ff1a)
+[2020.09.04-03.53.37:103][785]LogTTFontImport: Warning: A texture named F_中文字體_Mamelon_PageA already exists!
+[2020.09.04-03.53.37:131][785]LogTexture: Display: Building textures: F_中文字體_Mamelon_PageA (G8, 256X32)
+[2020.09.04-03.53.37:132][785]LogTTFontImport: ImportTrueTypeFont: Total Time 0.25
+[2020.09.04-03.53.39:980][ 73]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/素材/F_中文字體_Mamelon" FILE="../../../../../../Users/IM/Desktop/2020_september_VR_Basketball/VR_Basketball/Content/素材/F_中文字體_Mamelon.uasset" SILENT=true
+[2020.09.04-03.53.39:988][ 73]LogSavePackage: Moving '../../../../../../Users/IM/Desktop/2020_september_VR_Basketball/VR_Basketball/Saved/F_中文字體_MamelonDD1284A5433CA89CD4634AB7690E6811.tmp' to '../../../../../../Users/IM/Desktop/2020_september_VR_Basketball/VR_Basketball/Content/素材/F_中文字體_Mamelon.uasset'
+[2020.09.04-03.53.40:001][ 73]AssetCheck: New page: Asset Save: F_中文字體_Mamelon
+[2020.09.04-03.53.40:001][ 73]LogContentValidation: Display: Validating Font /Game/素材/F_中文字體_Mamelon.F_中文字體_Mamelon
+[2020.09.04-03.53.48:447][365]LogSlate: Took 0.000125 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.09.04-03.53.48:453][366]LogSlate: Took 0.000204 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.09.04-03.54.02:647][724]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/素材/M_中文字體.M_中文字體
+[2020.09.04-03.54.02:651][724]LogMaterial: Display: Missing cached shader map for material M_中文字體, compiling. 
+[2020.09.04-03.54.02:709][724]LogMaterial: Display: Missing cached shader map for material M_中文字體, compiling. 
+[2020.09.04-03.54.02:720][724]LogMaterial: Display: Missing cached shader map for material M_中文字體, compiling. 
+[2020.09.04-03.54.02:733][724]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2020.09.04-03.54.02:733][724]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2020.09.04-03.54.02:733][724]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2020.09.04-03.54.02:733][724]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2020.09.04-03.54.02:733][724]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2020.09.04-03.54.02:733][724]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2020.09.04-03.54.02:733][724]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2020.09.04-03.54.02:733][724]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2020.09.04-03.54.03:356][785]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1
+[2020.09.04-03.54.03:720][825]MaterialEditorStats: Base pass shader: 172 instructions
+[2020.09.04-03.54.03:720][825]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 246 instructions
+[2020.09.04-03.54.03:720][825]MaterialEditorStats: Base pass vertex shader: 97 instructions
+[2020.09.04-03.54.03:720][825]MaterialEditorStats: Texture samplers: 2/16
+[2020.09.04-03.54.11:338][359]LogMaterial: Display: Missing cached shader map for material M_中文字體, compiling. 
+[2020.09.04-03.54.11:362][360]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2020.09.04-03.54.11:362][360]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2020.09.04-03.54.11:362][360]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2020.09.04-03.54.11:362][360]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2020.09.04-03.54.11:362][360]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2020.09.04-03.54.11:363][360]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2020.09.04-03.54.11:363][360]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2020.09.04-03.54.11:363][360]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2020.09.04-03.54.11:813][411]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1
+[2020.09.04-03.54.14:746][762]LogMaterial: Display: Missing cached shader map for material M_中文字體, compiling. 
+[2020.09.04-03.54.14:757][762]LogMaterial: Display: Missing cached shader map for material M_中文字體, compiling. 
+[2020.09.04-03.54.14:768][762]LogMaterial: Display: Missing cached shader map for material M_中文字體, compiling. 
+[2020.09.04-03.54.14:776][762]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2020.09.04-03.54.14:776][762]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2020.09.04-03.54.14:776][762]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2020.09.04-03.54.14:776][762]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2020.09.04-03.54.14:776][762]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2020.09.04-03.54.14:776][762]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2020.09.04-03.54.14:776][762]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2020.09.04-03.54.14:776][762]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2020.09.04-03.54.15:267][816]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1
+[2020.09.04-03.54.15:619][858]MaterialEditorStats: Base pass shader: 172 instructions
+[2020.09.04-03.54.15:619][858]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 246 instructions
+[2020.09.04-03.54.15:619][858]MaterialEditorStats: Base pass vertex shader: 97 instructions
+[2020.09.04-03.54.15:619][858]MaterialEditorStats: Texture samplers: 2/16
+[2020.09.04-03.54.29:585][845]LogMaterial: Display: Missing cached shader map for material M_中文字體, compiling. 
+[2020.09.04-03.54.29:763][846]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2020.09.04-03.54.29:763][846]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2020.09.04-03.54.29:763][846]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2020.09.04-03.54.29:763][846]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2020.09.04-03.54.29:763][846]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2020.09.04-03.54.29:763][846]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2020.09.04-03.54.29:763][846]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2020.09.04-03.54.29:763][846]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2020.09.04-03.54.29:774][846]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2020.09.04-03.54.30:102][879]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 5
+[2020.09.04-03.54.30:153][885]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2020.09.04-03.54.30:262][898]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 3
+[2020.09.04-03.54.30:304][903]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2
+[2020.09.04-03.54.30:369][911]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1
+[2020.09.04-03.54.30:564][934]MaterialEditorStats: Base pass shader: 172 instructions
+[2020.09.04-03.54.30:564][934]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 246 instructions
+[2020.09.04-03.54.30:564][934]MaterialEditorStats: Base pass vertex shader: 97 instructions
+[2020.09.04-03.54.30:564][934]MaterialEditorStats: Texture samplers: 2/16
+[2020.09.04-03.54.31:239][ 14]LogMaterial: Display: Missing cached shader map for material M_中文字體, compiling. 
+[2020.09.04-03.54.31:272][ 15]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2020.09.04-03.54.31:272][ 15]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2020.09.04-03.54.31:272][ 15]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2020.09.04-03.54.31:272][ 15]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2020.09.04-03.54.31:272][ 15]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2020.09.04-03.54.31:272][ 15]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2020.09.04-03.54.31:272][ 15]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2020.09.04-03.54.31:272][ 15]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2020.09.04-03.54.31:691][ 64]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1
+[2020.09.04-03.54.36:271][580]LogMaterial: Display: Missing cached shader map for material M_中文字體, compiling. 
+[2020.09.04-03.54.36:292][581]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2020.09.04-03.54.36:292][581]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2020.09.04-03.54.36:292][581]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2020.09.04-03.54.36:292][581]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2020.09.04-03.54.36:292][581]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2020.09.04-03.54.36:292][581]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2020.09.04-03.54.36:292][581]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2020.09.04-03.54.36:292][581]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2020.09.04-03.54.36:737][628]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1
+[2020.09.04-03.54.37:113][673]MaterialEditorStats: Base pass shader: 172 instructions
+[2020.09.04-03.54.37:113][673]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 246 instructions
+[2020.09.04-03.54.37:113][673]MaterialEditorStats: Base pass vertex shader: 97 instructions
+[2020.09.04-03.54.37:113][673]MaterialEditorStats: Texture samplers: 2/16
+[2020.09.04-03.54.37:789][753]LogMaterial: Display: Missing cached shader map for material M_中文字體, compiling. 
+[2020.09.04-03.54.37:822][754]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2020.09.04-03.54.37:822][754]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2020.09.04-03.54.37:822][754]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2020.09.04-03.54.37:822][754]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2020.09.04-03.54.37:822][754]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2020.09.04-03.54.37:822][754]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2020.09.04-03.54.37:822][754]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2020.09.04-03.54.37:822][754]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2020.09.04-03.54.38:246][803]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1
+[2020.09.04-03.54.38:940][844]MaterialEditorStats: Base pass shader: 172 instructions
+[2020.09.04-03.54.38:940][844]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 246 instructions
+[2020.09.04-03.54.38:940][844]MaterialEditorStats: Base pass vertex shader: 97 instructions
+[2020.09.04-03.54.38:940][844]MaterialEditorStats: Texture samplers: 2/16
+[2020.09.04-03.54.49:493][ 11]LogMaterial: Display: Missing cached shader map for material M_中文字體, compiling. 
+[2020.09.04-03.54.49:503][ 11]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2020.09.04-03.54.49:551][ 12]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2020.09.04-03.54.49:551][ 12]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2020.09.04-03.54.49:551][ 12]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2020.09.04-03.54.49:551][ 12]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2020.09.04-03.54.49:551][ 12]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2020.09.04-03.54.49:551][ 12]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2020.09.04-03.54.49:551][ 12]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2020.09.04-03.54.49:551][ 12]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2020.09.04-03.54.49:960][ 60]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 5
+[2020.09.04-03.54.49:995][ 64]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2020.09.04-03.54.50:181][ 84]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2020.09.04-03.54.50:233][ 90]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2020.09.04-03.54.50:251][ 92]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1
+[2020.09.04-03.54.51:410][231]MaterialEditorStats: Base pass shader: 172 instructions
+[2020.09.04-03.54.51:410][231]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 246 instructions
+[2020.09.04-03.54.51:410][231]MaterialEditorStats: Base pass vertex shader: 97 instructions
+[2020.09.04-03.54.51:410][231]MaterialEditorStats: Texture samplers: 2/16
+[2020.09.04-03.54.52:926][412]LogMaterial: Display: Missing cached shader map for material M_中文字體, compiling. 
+[2020.09.04-03.54.52:941][412]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2020.09.04-03.54.52:947][412]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2020.09.04-03.54.52:947][412]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2020.09.04-03.54.52:947][412]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2020.09.04-03.54.52:947][412]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2020.09.04-03.54.52:947][412]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2020.09.04-03.54.52:947][412]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2020.09.04-03.54.52:947][412]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2020.09.04-03.54.52:947][412]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2020.09.04-03.54.53:393][456]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 5
+[2020.09.04-03.54.53:425][460]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2020.09.04-03.54.53:636][485]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2020.09.04-03.54.53:670][489]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2020.09.04-03.54.53:693][492]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1
+[2020.09.04-03.54.53:850][510]MaterialEditorStats: Base pass shader: 172 instructions
+[2020.09.04-03.54.53:850][510]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 246 instructions
+[2020.09.04-03.54.53:850][510]MaterialEditorStats: Base pass vertex shader: 97 instructions
+[2020.09.04-03.54.53:850][510]MaterialEditorStats: Texture samplers: 2/16
+[2020.09.04-03.55.05:728][232]LogMaterial: Display: Missing cached shader map for material M_中文字體, compiling. 
+[2020.09.04-03.55.05:742][232]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2020.09.04-03.55.05:748][232]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2020.09.04-03.55.05:748][232]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2020.09.04-03.55.05:748][232]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2020.09.04-03.55.05:748][232]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2020.09.04-03.55.05:748][232]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2020.09.04-03.55.05:748][232]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2020.09.04-03.55.05:748][232]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2020.09.04-03.55.05:748][232]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2020.09.04-03.55.06:206][281]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 5
+[2020.09.04-03.55.06:248][286]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2020.09.04-03.55.06:452][310]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2020.09.04-03.55.06:493][315]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2020.09.04-03.55.06:501][316]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2020.09.04-03.55.06:652][333]MaterialEditorStats: Base pass shader: 173 instructions
+[2020.09.04-03.55.06:652][333]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 247 instructions
+[2020.09.04-03.55.06:652][333]MaterialEditorStats: Base pass vertex shader: 97 instructions
+[2020.09.04-03.55.06:652][333]MaterialEditorStats: Texture samplers: 2/16
+[2020.09.04-03.55.06:871][359]LogMaterial: Display: Missing cached shader map for material M_中文字體, compiling. 
+[2020.09.04-03.55.06:884][359]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2020.09.04-03.55.06:884][359]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2020.09.04-03.55.06:884][359]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2020.09.04-03.55.06:884][359]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2020.09.04-03.55.06:884][359]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2020.09.04-03.55.06:884][359]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2020.09.04-03.55.06:884][359]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2020.09.04-03.55.06:884][359]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2020.09.04-03.55.06:888][359]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2020.09.04-03.55.06:897][359]LogSlate: Window 'Color Picker' being destroyed
+[2020.09.04-03.55.07:333][408]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 5
+[2020.09.04-03.55.07:363][410]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2020.09.04-03.55.07:574][435]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2020.09.04-03.55.07:607][439]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2020.09.04-03.55.07:640][443]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1
+[2020.09.04-03.55.07:787][460]MaterialEditorStats: Base pass shader: 173 instructions
+[2020.09.04-03.55.07:787][460]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 247 instructions
+[2020.09.04-03.55.07:787][460]MaterialEditorStats: Base pass vertex shader: 97 instructions
+[2020.09.04-03.55.07:787][460]MaterialEditorStats: Texture samplers: 2/16
+[2020.09.04-03.55.13:187][791]LogMaterial: Display: Missing cached shader map for material M_中文字體, compiling. 
+[2020.09.04-03.55.13:198][791]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2020.09.04-03.55.13:209][791]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 13
+[2020.09.04-03.55.13:209][791]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 12
+[2020.09.04-03.55.13:209][791]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 11
+[2020.09.04-03.55.13:209][791]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 10
+[2020.09.04-03.55.13:209][791]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 9
+[2020.09.04-03.55.13:209][791]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 8
+[2020.09.04-03.55.13:209][791]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 7
+[2020.09.04-03.55.13:209][791]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 6
+[2020.09.04-03.55.13:213][791]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2020.09.04-03.55.13:229][791]LogMaterial: Display: Missing cached shader map for material M_中文字體, compiling. 
+[2020.09.04-03.55.13:247][791]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2020.09.04-03.55.13:657][829]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 13
+[2020.09.04-03.55.13:700][834]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 12
+[2020.09.04-03.55.13:916][857]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 11
+[2020.09.04-03.55.13:988][864]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 10
+[2020.09.04-03.55.14:008][866]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 9
+[2020.09.04-03.55.14:017][867]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 8
+[2020.09.04-03.55.14:035][869]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 7
+[2020.09.04-03.55.14:052][871]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 6
+[2020.09.04-03.55.14:356][904]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 5
+[2020.09.04-03.55.14:365][905]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 4
+[2020.09.04-03.55.14:442][914]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 3
+[2020.09.04-03.55.14:459][916]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2020.09.04-03.55.14:642][937]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2020.09.04-03.55.14:806][956]MaterialEditorStats: Base pass shader: 174 instructions
+[2020.09.04-03.55.14:806][956]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 248 instructions
+[2020.09.04-03.55.14:806][956]MaterialEditorStats: Base pass vertex shader: 97 instructions
+[2020.09.04-03.55.14:806][956]MaterialEditorStats: Texture samplers: 2/16
+[2020.09.04-03.55.59:916][797]LogMaterial: Display: Missing cached shader map for material M_中文字體, compiling. 
+[2020.09.04-03.55.59:926][797]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2020.09.04-03.55.59:926][797]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2020.09.04-03.55.59:926][797]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2020.09.04-03.55.59:926][797]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2020.09.04-03.55.59:926][797]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2020.09.04-03.55.59:926][797]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2020.09.04-03.55.59:926][797]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2020.09.04-03.55.59:926][797]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2020.09.04-03.55.59:930][797]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2020.09.04-03.55.59:938][797]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFontSampleParameter_0, compiling. 
+[2020.09.04-03.56.00:487][845]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 5
+[2020.09.04-03.56.00:496][846]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2020.09.04-03.56.00:676][867]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2020.09.04-03.56.00:728][873]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2020.09.04-03.56.00:783][879]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 1
+[2020.09.04-03.56.00:930][896]MaterialEditorStats: Base pass shader: 174 instructions
+[2020.09.04-03.56.00:930][896]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 248 instructions
+[2020.09.04-03.56.00:930][896]MaterialEditorStats: Base pass vertex shader: 97 instructions
+[2020.09.04-03.56.00:930][896]MaterialEditorStats: Texture samplers: 2/16
+[2020.09.04-03.56.08:242][772]LogMaterial: Display: Missing cached shader map for material M_中文字體, compiling. 
+[2020.09.04-03.56.08:276][773]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2020.09.04-03.56.08:276][773]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2020.09.04-03.56.08:276][773]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2020.09.04-03.56.08:276][773]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2020.09.04-03.56.08:276][773]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2020.09.04-03.56.08:276][773]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2020.09.04-03.56.08:276][773]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2020.09.04-03.56.08:277][773]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2020.09.04-03.56.08:707][818]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1
+[2020.09.04-03.56.17:890][873]MaterialEditorStats: Base pass shader: 174 instructions
+[2020.09.04-03.56.17:890][873]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 248 instructions
+[2020.09.04-03.56.17:890][873]MaterialEditorStats: Base pass vertex shader: 97 instructions
+[2020.09.04-03.56.17:890][873]MaterialEditorStats: Texture samplers: 2/16
+[2020.09.04-03.56.29:564][482]LogMaterial: Display: Missing cached shader map for material M_中文字體, compiling. 
+[2020.09.04-03.56.29:575][482]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFontSample_0, compiling. 
+[2020.09.04-03.56.29:589][483]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2020.09.04-03.56.29:589][483]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2020.09.04-03.56.29:589][483]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2020.09.04-03.56.29:589][483]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2020.09.04-03.56.29:589][483]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2020.09.04-03.56.29:589][483]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2020.09.04-03.56.29:589][483]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2020.09.04-03.56.29:590][483]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2020.09.04-03.56.30:159][544]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1
+[2020.09.04-03.56.30:525][587]MaterialEditorStats: Base pass shader: 174 instructions
+[2020.09.04-03.56.30:525][587]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 248 instructions
+[2020.09.04-03.56.30:525][587]MaterialEditorStats: Base pass vertex shader: 97 instructions
+[2020.09.04-03.56.30:525][587]MaterialEditorStats: Texture samplers: 2/16
+[2020.09.04-03.56.30:842][624]LogMaterial: Display: Missing cached shader map for material M_中文字體, compiling. 
+[2020.09.04-03.56.30:875][625]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2020.09.04-03.56.30:875][625]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2020.09.04-03.56.30:875][625]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2020.09.04-03.56.30:875][625]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2020.09.04-03.56.30:875][625]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2020.09.04-03.56.30:875][625]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2020.09.04-03.56.30:875][625]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2020.09.04-03.56.30:875][625]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2020.09.04-03.56.31:318][671]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1
+[2020.09.04-03.56.35:076][116]LogMaterial: Display: Missing cached shader map for material M_中文字體, compiling. 
+[2020.09.04-03.56.35:087][116]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2020.09.04-03.56.35:087][116]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2020.09.04-03.56.35:087][116]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2020.09.04-03.56.35:087][116]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2020.09.04-03.56.35:087][116]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2020.09.04-03.56.35:087][116]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2020.09.04-03.56.35:087][116]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2020.09.04-03.56.35:087][116]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2020.09.04-03.56.35:087][116]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFontSampleParameter_1, compiling. 
+[2020.09.04-03.56.35:605][169]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1
+[2020.09.04-03.56.35:977][213]MaterialEditorStats: Base pass shader: 174 instructions
+[2020.09.04-03.56.35:977][213]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 248 instructions
+[2020.09.04-03.56.35:977][213]MaterialEditorStats: Base pass vertex shader: 97 instructions
+[2020.09.04-03.56.35:977][213]MaterialEditorStats: Texture samplers: 2/16
+[2020.09.04-03.56.36:581][280]LogMaterial: Display: Missing cached shader map for material M_中文字體, compiling. 
+[2020.09.04-03.56.36:609][281]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2020.09.04-03.56.36:609][281]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2020.09.04-03.56.36:609][281]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2020.09.04-03.56.36:609][281]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2020.09.04-03.56.36:609][281]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2020.09.04-03.56.36:609][281]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2020.09.04-03.56.36:609][281]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2020.09.04-03.56.36:609][281]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2020.09.04-03.56.37:040][326]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1
+[2020.09.04-03.56.40:025][679]LogMaterial: Display: Missing cached shader map for material M_中文字體, compiling. 
+[2020.09.04-03.56.40:036][679]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2020.09.04-03.56.40:036][679]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2020.09.04-03.56.40:036][679]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2020.09.04-03.56.40:036][679]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2020.09.04-03.56.40:036][679]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2020.09.04-03.56.40:036][679]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2020.09.04-03.56.40:036][679]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2020.09.04-03.56.40:036][679]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2020.09.04-03.56.40:036][679]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFontSampleParameter_2, compiling. 
+[2020.09.04-03.56.40:498][726]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1
+[2020.09.04-03.56.40:871][768]MaterialEditorStats: Base pass shader: 174 instructions
+[2020.09.04-03.56.40:871][768]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 248 instructions
+[2020.09.04-03.56.40:871][768]MaterialEditorStats: Base pass vertex shader: 97 instructions
+[2020.09.04-03.56.40:871][768]MaterialEditorStats: Texture samplers: 2/16
+[2020.09.04-03.56.41:313][820]LogMaterial: Display: Missing cached shader map for material M_中文字體, compiling. 
+[2020.09.04-03.56.41:347][821]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2020.09.04-03.56.41:347][821]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2020.09.04-03.56.41:347][821]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2020.09.04-03.56.41:347][821]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2020.09.04-03.56.41:347][821]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2020.09.04-03.56.41:347][821]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2020.09.04-03.56.41:347][821]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2020.09.04-03.56.41:347][821]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2020.09.04-03.56.41:777][870]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1
+[2020.09.04-03.56.45:182][272]LogMaterial: Display: Missing cached shader map for material M_中文字體, compiling. 
+[2020.09.04-03.56.45:193][272]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2020.09.04-03.56.45:193][272]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2020.09.04-03.56.45:193][272]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2020.09.04-03.56.45:193][272]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2020.09.04-03.56.45:193][272]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2020.09.04-03.56.45:193][272]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2020.09.04-03.56.45:193][272]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2020.09.04-03.56.45:193][272]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2020.09.04-03.56.45:193][272]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFontSampleParameter_3, compiling. 
+[2020.09.04-03.56.45:658][315]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1
+[2020.09.04-03.56.46:059][362]MaterialEditorStats: Base pass shader: 174 instructions
+[2020.09.04-03.56.46:059][362]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 248 instructions
+[2020.09.04-03.56.46:059][362]MaterialEditorStats: Base pass vertex shader: 97 instructions
+[2020.09.04-03.56.46:059][362]MaterialEditorStats: Texture samplers: 2/16
+[2020.09.04-03.56.46:618][428]LogMaterial: Display: Missing cached shader map for material M_中文字體, compiling. 
+[2020.09.04-03.56.46:642][429]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2020.09.04-03.56.46:642][429]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2020.09.04-03.56.46:642][429]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2020.09.04-03.56.46:642][429]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2020.09.04-03.56.46:642][429]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2020.09.04-03.56.46:642][429]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2020.09.04-03.56.46:642][429]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2020.09.04-03.56.46:642][429]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2020.09.04-03.56.47:090][475]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1
+[2020.09.04-03.56.52:492][117]LogMaterial: Display: Missing cached shader map for material M_中文字體, compiling. 
+[2020.09.04-03.56.52:503][117]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFontSample_1, compiling. 
+[2020.09.04-03.56.52:526][118]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2020.09.04-03.56.52:526][118]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2020.09.04-03.56.52:526][118]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2020.09.04-03.56.52:526][118]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2020.09.04-03.56.52:526][118]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2020.09.04-03.56.52:526][118]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2020.09.04-03.56.52:526][118]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2020.09.04-03.56.52:526][118]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2020.09.04-03.56.52:951][162]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1
+[2020.09.04-03.56.53:335][207]MaterialEditorStats: Base pass shader: 174 instructions
+[2020.09.04-03.56.53:335][207]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 248 instructions
+[2020.09.04-03.56.53:335][207]MaterialEditorStats: Base pass vertex shader: 97 instructions
+[2020.09.04-03.56.53:335][207]MaterialEditorStats: Texture samplers: 2/16
+[2020.09.04-03.56.53:777][259]LogMaterial: Display: Missing cached shader map for material M_中文字體, compiling. 
+[2020.09.04-03.56.53:809][260]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2020.09.04-03.56.53:809][260]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2020.09.04-03.56.53:809][260]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2020.09.04-03.56.53:809][260]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2020.09.04-03.56.53:809][260]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2020.09.04-03.56.53:809][260]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2020.09.04-03.56.53:809][260]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2020.09.04-03.56.53:809][260]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2020.09.04-03.56.54:258][310]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1
+[2020.09.04-03.56.55:293][352]MaterialEditorStats: Base pass shader: 174 instructions
+[2020.09.04-03.56.55:293][352]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 248 instructions
+[2020.09.04-03.56.55:293][352]MaterialEditorStats: Base pass vertex shader: 97 instructions
+[2020.09.04-03.56.55:293][352]MaterialEditorStats: Texture samplers: 2/16
+[2020.09.04-03.57.04:176][784]LogMaterial: Display: Missing cached shader map for material M_中文字體, compiling. 
+[2020.09.04-03.57.04:187][784]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFontSampleParameter_4, compiling. 
+[2020.09.04-03.57.04:217][785]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2020.09.04-03.57.04:217][785]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2020.09.04-03.57.04:217][785]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2020.09.04-03.57.04:217][785]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2020.09.04-03.57.04:217][785]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2020.09.04-03.57.04:218][785]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2020.09.04-03.57.04:218][785]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2020.09.04-03.57.04:218][785]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2020.09.04-03.57.04:657][831]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1
+[2020.09.04-03.57.05:036][876]MaterialEditorStats: Base pass shader: 174 instructions
+[2020.09.04-03.57.05:036][876]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 248 instructions
+[2020.09.04-03.57.05:036][876]MaterialEditorStats: Base pass vertex shader: 97 instructions
+[2020.09.04-03.57.05:036][876]MaterialEditorStats: Texture samplers: 2/16
+[2020.09.04-03.57.37:010][360]LogMaterial: Display: Missing cached shader map for material M_中文字體, compiling. 
+[2020.09.04-03.57.37:024][360]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFontSampleParameter_4, compiling. 
+[2020.09.04-03.57.37:030][360]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2020.09.04-03.57.37:030][360]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2020.09.04-03.57.37:030][360]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2020.09.04-03.57.37:030][360]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2020.09.04-03.57.37:030][360]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2020.09.04-03.57.37:030][360]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2020.09.04-03.57.37:030][360]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2020.09.04-03.57.37:030][360]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2020.09.04-03.57.37:034][360]LogMaterial: Display: Missing cached shader map for material M_中文字體, compiling. 
+[2020.09.04-03.57.37:601][422]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 13
+[2020.09.04-03.57.37:618][424]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 12
+[2020.09.04-03.57.37:806][444]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 11
+[2020.09.04-03.57.37:827][446]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 10
+[2020.09.04-03.57.37:897][453]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2020.09.04-03.57.37:925][456]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 8
+[2020.09.04-03.57.37:942][458]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 7
+[2020.09.04-03.57.37:959][460]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 6
+[2020.09.04-03.57.38:141][480]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 5
+[2020.09.04-03.57.38:151][481]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2020.09.04-03.57.38:259][494]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2020.09.04-03.57.38:286][497]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2020.09.04-03.57.38:394][509]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2020.09.04-03.57.39:424][624]LogMaterial: Display: Missing cached shader map for material M_中文字體, compiling. 
+[2020.09.04-03.57.39:475][624]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFontSampleParameter_4, compiling. 
+[2020.09.04-03.57.39:481][624]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 26
+[2020.09.04-03.57.39:481][624]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 25
+[2020.09.04-03.57.39:481][624]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 24
+[2020.09.04-03.57.39:481][624]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 23
+[2020.09.04-03.57.39:481][624]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 22
+[2020.09.04-03.57.39:481][624]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 21
+[2020.09.04-03.57.39:481][624]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 20
+[2020.09.04-03.57.39:481][624]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 19
+[2020.09.04-03.57.39:687][646]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 22
+[2020.09.04-03.57.39:696][647]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 21
+[2020.09.04-03.57.39:696][647]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 20
+[2020.09.04-03.57.39:696][647]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 19
+[2020.09.04-03.57.39:803][660]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 18
+[2020.09.04-03.57.39:840][664]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 17
+[2020.09.04-03.57.39:848][665]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 16
+[2020.09.04-03.57.39:890][670]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 15
+[2020.09.04-03.57.39:898][671]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 14
+[2020.09.04-03.57.39:989][682]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 13
+[2020.09.04-03.57.39:997][683]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 12
+[2020.09.04-03.57.40:013][685]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 11
+[2020.09.04-03.57.40:180][704]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 10
+[2020.09.04-03.57.40:194][705]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2020.09.04-03.57.40:371][717]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 8
+[2020.09.04-03.57.40:498][726]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 7
+[2020.09.04-03.57.40:552][730]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 6
+[2020.09.04-03.57.40:619][735]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 5
+[2020.09.04-03.57.40:711][742]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 4
+[2020.09.04-03.57.40:760][746]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2020.09.04-03.57.40:796][749]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 2
+[2020.09.04-03.57.40:821][751]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2020.09.04-03.57.41:568][785]MaterialEditorStats: Base pass shader: 178 instructions
+[2020.09.04-03.57.41:568][785]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 252 instructions
+[2020.09.04-03.57.41:568][785]MaterialEditorStats: Base pass vertex shader: 145 instructions
+[2020.09.04-03.57.41:568][785]MaterialEditorStats: Texture samplers: 3/16
+[2020.09.04-03.57.41:568][785]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.09.04-03.57.41:568][785]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.09.04-03.57.47:119][968]LogMaterialEditor: Applying material M_中文字體
+[2020.09.04-03.57.47:483][968]LogMaterial: Display: Missing cached shader map for material M_中文字體, compiling. 
+[2020.09.04-03.57.47:534][968]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 26
+[2020.09.04-03.57.47:534][968]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 25
+[2020.09.04-03.57.47:534][968]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 24
+[2020.09.04-03.57.47:534][968]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 23
+[2020.09.04-03.57.47:534][968]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 22
+[2020.09.04-03.57.47:534][968]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 21
+[2020.09.04-03.57.47:534][968]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 20
+[2020.09.04-03.57.47:534][968]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 19
+[2020.09.04-03.57.47:546][968]LogMaterial: Display: Missing cached shader map for material M_中文字體, compiling. 
+[2020.09.04-03.57.47:721][968]LogUObjectHash: Compacting FUObjectHashTables data took  11.71ms
+[2020.09.04-03.57.47:738][968]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.09.04-03.57.48:923][968]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 56
+[2020.09.04-03.57.48:923][968]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 55
+[2020.09.04-03.57.48:923][968]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 54
+[2020.09.04-03.57.48:923][968]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 53
+[2020.09.04-03.57.48:923][968]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 52
+[2020.09.04-03.57.48:923][968]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 51
+[2020.09.04-03.57.48:923][968]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 50
+[2020.09.04-03.57.48:923][968]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 49
+[2020.09.04-03.57.48:923][968]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 48
+[2020.09.04-03.57.48:923][968]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 47
+[2020.09.04-03.57.48:923][968]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 46
+[2020.09.04-03.57.48:923][968]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 45
+[2020.09.04-03.57.48:923][968]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 44
+[2020.09.04-03.57.48:923][968]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 43
+[2020.09.04-03.57.48:923][968]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 42
+[2020.09.04-03.57.48:923][968]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 41
+[2020.09.04-03.57.48:923][968]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 40
+[2020.09.04-03.57.48:924][968]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 39
+[2020.09.04-03.57.48:924][968]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 38
+[2020.09.04-03.57.48:924][968]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 37
+[2020.09.04-03.57.48:924][968]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 36
+[2020.09.04-03.57.48:924][968]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 31
+[2020.09.04-03.57.48:924][968]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 27
+[2020.09.04-03.57.48:924][968]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 23
+[2020.09.04-03.57.48:924][968]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 20
+[2020.09.04-03.57.48:924][968]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 17
+[2020.09.04-03.57.48:931][968]TextureStreamingBuild: Display: Compiling optional shaders took 1.206 seconds.
+[2020.09.04-03.57.49:004][968]LogUObjectHash: Compacting FUObjectHashTables data took   6.43ms
+[2020.09.04-03.57.49:017][968]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 14
+[2020.09.04-03.57.49:109][976]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 12
+[2020.09.04-03.57.49:435][ 13]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 10
+[2020.09.04-03.57.49:436][ 13]LogMaterialEditor: Saving and Compiling material M_中文字體
+[2020.09.04-03.57.50:468][ 13]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 8
+[2020.09.04-03.57.50:468][ 13]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 6
+[2020.09.04-03.57.50:468][ 13]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 5
+[2020.09.04-03.57.50:468][ 13]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 4
+[2020.09.04-03.57.50:468][ 13]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2020.09.04-03.57.50:468][ 13]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2020.09.04-03.57.50:468][ 13]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1
+[2020.09.04-03.57.50:477][ 13]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/素材/M_中文字體" FILE="../../../../../../Users/IM/Desktop/2020_september_VR_Basketball/VR_Basketball/Content/素材/M_中文字體.uasset" SILENT=true
+[2020.09.04-03.57.50:491][ 13]LogSavePackage: Moving '../../../../../../Users/IM/Desktop/2020_september_VR_Basketball/VR_Basketball/Saved/M_中文字體11444C1F4BB4F9548C2AEA960E38DAA6.tmp' to '../../../../../../Users/IM/Desktop/2020_september_VR_Basketball/VR_Basketball/Content/素材/M_中文字體.uasset'
+[2020.09.04-03.57.50:526][ 13]AssetCheck: New page: Asset Save: M_中文字體
+[2020.09.04-03.57.50:526][ 13]LogContentValidation: Display: Validating Material /Game/素材/M_中文字體.M_中文字體
+[2020.09.04-03.57.50:527][ 13]MaterialEditorStats: Base pass shader: 178 instructions
+[2020.09.04-03.57.50:527][ 13]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 252 instructions
+[2020.09.04-03.57.50:527][ 13]MaterialEditorStats: Base pass vertex shader: 145 instructions
+[2020.09.04-03.57.50:527][ 13]MaterialEditorStats: Texture samplers: 4/16
+[2020.09.04-03.57.50:527][ 13]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.09.04-03.57.50:527][ 13]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.09.04-03.57.50:953][ 59]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2020.09.04-03.57.50:953][ 59]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.04-03.58.01:554][170]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/素材/M_中文字體_Inst.M_中文字體_Inst
+[2020.09.04-03.58.25:963][555]LogUObjectHash: Compacting FUObjectHashTables data took   3.17ms
+[2020.09.04-03.58.25:965][555]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/MotionControllerMap' took 0.043
+[2020.09.04-03.58.25:966][555]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/素材/Mamelon] ([1] browsable assets)...
+[2020.09.04-03.58.25:966][555]OBJ SavePackage: Finished generating thumbnails for package [/Game/素材/Mamelon]
+[2020.09.04-03.58.25:972][555]LogSavePackage: Moving '../../../../../../Users/IM/Desktop/2020_september_VR_Basketball/VR_Basketball/Saved/Mamelon_Auto3AEEC665F4ECA62A9063D16968EDFDD0C.tmp' to '../../../../../../Users/IM/Desktop/2020_september_VR_Basketball/VR_Basketball/Saved/Autosaves/Game/素材/Mamelon_Auto3.uasset'
+[2020.09.04-03.58.25:973][555]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/素材/Mamelon_Font] ([1] browsable assets)...
+[2020.09.04-03.58.25:975][555]OBJ SavePackage:     Rendered thumbnail for [Font /Game/素材/Mamelon_Font.Mamelon_Font]
+[2020.09.04-03.58.25:975][555]OBJ SavePackage: Finished generating thumbnails for package [/Game/素材/Mamelon_Font]
+[2020.09.04-03.58.26:003][555]LogSavePackage: Moving '../../../../../../Users/IM/Desktop/2020_september_VR_Basketball/VR_Basketball/Saved/Mamelon_Font_Auto358A8AFA34535E4FAC45304963F4AC238.tmp' to '../../../../../../Users/IM/Desktop/2020_september_VR_Basketball/VR_Basketball/Saved/Autosaves/Game/素材/Mamelon_Font_Auto3.uasset'
+[2020.09.04-03.58.26:004][555]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/素材/M_中文字體_Inst] ([1] browsable assets)...
+[2020.09.04-03.58.26:011][555]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/素材/M_中文字體_Inst.M_中文字體_Inst]
+[2020.09.04-03.58.26:011][555]OBJ SavePackage: Finished generating thumbnails for package [/Game/素材/M_中文字體_Inst]
+[2020.09.04-03.58.26:048][555]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2020.09.04-03.58.26:058][555]TextureStreamingBuild: Display: Compiling optional shaders took 0.010 seconds.
+[2020.09.04-03.58.26:087][555]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2020.09.04-03.58.26:099][555]LogSavePackage: Moving '../../../../../../Users/IM/Desktop/2020_september_VR_Basketball/VR_Basketball/Saved/M_中文字體_Inst_Auto3B761870047178551639F69B6C366C103.tmp' to '../../../../../../Users/IM/Desktop/2020_september_VR_Basketball/VR_Basketball/Saved/Autosaves/Game/素材/M_中文字體_Inst_Auto3.uasset'
+[2020.09.04-03.58.26:100][555]LogFileHelpers: Auto-saving content packages took 0.135
+[2020.09.04-03.58.45:090][444]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor)
+[2020.09.04-03.59.36:657][442]LogAssetEditorSubsystem: Opening Asset editor for Font /Game/素材/F_中文字體_Mamelon.F_中文字體_Mamelon
+[2020.09.04-03.59.46:056][536]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/素材/M_中文字體.M_中文字體
+[2020.09.04-03.59.46:060][536]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2020.09.04-03.59.46:122][536]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2020.09.04-03.59.46:136][536]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2020.09.04-03.59.46:153][536]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 26
+[2020.09.04-03.59.46:153][536]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 25
+[2020.09.04-03.59.46:153][536]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 24
+[2020.09.04-03.59.46:153][536]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 23
+[2020.09.04-03.59.46:153][536]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 22
+[2020.09.04-03.59.46:153][536]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 21
+[2020.09.04-03.59.46:153][536]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 20
+[2020.09.04-03.59.46:153][536]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 19
+[2020.09.04-03.59.46:157][536]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2020.09.04-03.59.46:167][536]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFontSampleParameter_4, compiling. 
+[2020.09.04-03.59.46:458][559]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 26
+[2020.09.04-03.59.46:467][560]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 25
+[2020.09.04-03.59.46:476][561]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 24
+[2020.09.04-03.59.46:519][566]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 23
+[2020.09.04-03.59.46:569][572]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 22
+[2020.09.04-03.59.46:588][574]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 21
+[2020.09.04-03.59.46:596][575]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 20
+[2020.09.04-03.59.46:654][582]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 19
+[2020.09.04-03.59.46:671][584]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 18
+[2020.09.04-03.59.46:757][593]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 17
+[2020.09.04-03.59.46:773][595]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 16
+[2020.09.04-03.59.46:790][596]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 15
+[2020.09.04-03.59.46:931][611]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 14
+[2020.09.04-03.59.46:948][613]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 13
+[2020.09.04-03.59.47:137][633]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 12
+[2020.09.04-03.59.47:247][644]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 11
+[2020.09.04-03.59.47:293][649]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 10
+[2020.09.04-03.59.47:390][660]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 9
+[2020.09.04-03.59.47:486][671]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 8
+[2020.09.04-03.59.47:562][680]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 7
+[2020.09.04-03.59.47:571][681]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 6
+[2020.09.04-03.59.47:623][687]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 5
+[2020.09.04-03.59.47:630][688]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 4
+[2020.09.04-03.59.47:743][701]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 3
+[2020.09.04-03.59.48:012][730]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2020.09.04-03.59.48:040][733]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1
+[2020.09.04-03.59.48:137][744]MaterialEditorStats: Base pass shader: 178 instructions
+[2020.09.04-03.59.48:137][744]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 252 instructions
+[2020.09.04-03.59.48:137][744]MaterialEditorStats: Base pass vertex shader: 145 instructions
+[2020.09.04-03.59.48:137][744]MaterialEditorStats: Texture samplers: 3/16
+[2020.09.04-03.59.48:137][744]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.09.04-03.59.48:137][744]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.09.04-03.59.58:953][ 35]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2020.09.04-03.59.58:953][ 35]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.04-04.00.05:251][749]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/素材/M_中文字體_Inst" FILE="../../../../../../Users/IM/Desktop/2020_september_VR_Basketball/VR_Basketball/Content/素材/M_中文字體_Inst.uasset" SILENT=true
+[2020.09.04-04.00.05:312][749]LogUObjectHash: Compacting FUObjectHashTables data took   2.97ms
+[2020.09.04-04.00.05:325][749]TextureStreamingBuild: Display: Compiling optional shaders took 0.010 seconds.
+[2020.09.04-04.00.05:358][749]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2020.09.04-04.00.05:371][749]LogSavePackage: Moving '../../../../../../Users/IM/Desktop/2020_september_VR_Basketball/VR_Basketball/Saved/M_中文字體_Inst59788B454E831ACE600E9ABAFC94308F.tmp' to '../../../../../../Users/IM/Desktop/2020_september_VR_Basketball/VR_Basketball/Content/素材/M_中文字體_Inst.uasset'
+[2020.09.04-04.00.05:386][749]AssetCheck: New page: Asset Save: M_中文字體_Inst
+[2020.09.04-04.00.05:386][749]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/素材/M_中文字體_Inst.M_中文字體_Inst
+[2020.09.04-04.00.07:224][947]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/素材/F_中文字體_Mamelon" FILE="../../../../../../Users/IM/Desktop/2020_september_VR_Basketball/VR_Basketball/Content/素材/F_中文字體_Mamelon.uasset" SILENT=true
+[2020.09.04-04.00.07:234][947]LogSavePackage: Moving '../../../../../../Users/IM/Desktop/2020_september_VR_Basketball/VR_Basketball/Saved/F_中文字體_Mamelon841871B248A755F4D3ECCDB709E749B7.tmp' to '../../../../../../Users/IM/Desktop/2020_september_VR_Basketball/VR_Basketball/Content/素材/F_中文字體_Mamelon.uasset'
+[2020.09.04-04.00.07:244][947]AssetCheck: New page: Asset Save: F_中文字體_Mamelon
+[2020.09.04-04.00.07:244][947]LogContentValidation: Display: Validating Font /Game/素材/F_中文字體_Mamelon.F_中文字體_Mamelon
+[2020.09.04-04.00.37:263][844]LogSlate: Window 'Color Picker' being destroyed
+[2020.09.04-04.00.39:417][ 87]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/素材/M_中文字體_Inst" FILE="../../../../../../Users/IM/Desktop/2020_september_VR_Basketball/VR_Basketball/Content/素材/M_中文字體_Inst.uasset" SILENT=true
+[2020.09.04-04.00.39:455][ 87]LogUObjectHash: Compacting FUObjectHashTables data took   3.05ms
+[2020.09.04-04.00.39:467][ 87]TextureStreamingBuild: Display: Compiling optional shaders took 0.011 seconds.
+[2020.09.04-04.00.39:504][ 87]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2020.09.04-04.00.39:545][ 87]LogSavePackage: Moving '../../../../../../Users/IM/Desktop/2020_september_VR_Basketball/VR_Basketball/Saved/M_中文字體_InstA2BC6CDE48D50B04B034E5B92A1FC72B.tmp' to '../../../../../../Users/IM/Desktop/2020_september_VR_Basketball/VR_Basketball/Content/素材/M_中文字體_Inst.uasset'
+[2020.09.04-04.00.39:557][ 87]AssetCheck: New page: Asset Save: M_中文字體_Inst
+[2020.09.04-04.00.39:558][ 87]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/素材/M_中文字體_Inst.M_中文字體_Inst
+[2020.09.04-04.01.15:512][164]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2020.09.04-04.01.15:512][164]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.04-04.01.19:028][571]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/籃球框/source/ta.ta
+[2020.09.04-04.01.19:178][572]LogRenderer: Reallocating scene render targets to support 1284x900 Format 26 NumSamples 1 (Frame:1).
+[2020.09.04-04.02.03:428][225]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/籃球框/source/ta" FILE="../../../../../../Users/IM/Desktop/2020_september_VR_Basketball/VR_Basketball/Content/籃球框/source/ta.uasset" SILENT=true
+[2020.09.04-04.02.03:443][225]LogSavePackage: Moving '../../../../../../Users/IM/Desktop/2020_september_VR_Basketball/VR_Basketball/Saved/taE4B4C41C452339AC6DE2979D0BF68CB2.tmp' to '../../../../../../Users/IM/Desktop/2020_september_VR_Basketball/VR_Basketball/Content/籃球框/source/ta.uasset'
+[2020.09.04-04.02.03:456][225]AssetCheck: New page: Asset Save: ta
+[2020.09.04-04.02.03:456][225]LogContentValidation: Display: Validating StaticMesh /Game/籃球框/source/ta.ta
+[2020.09.04-04.02.04:722][366]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2020.09.04-04.02.04:722][366]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.04-04.03.05:275][310]LogSlate: Window 'Pick Parent Class' being destroyed
+[2020.09.04-04.03.21:815][948]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_Basketball_Game/NewBlueprint.NewBlueprint
+[2020.09.04-04.03.23:920][144]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2020.09.04-04.03.23:920][144]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.04-04.03.37:809][734]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
+[2020.09.04-04.03.37:814][734]LogMetaData: Removing '/Game/BP_Basketball_Game/BP_籃球檢查區塊.BP_籃球檢查區塊:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/BP_Basketball_Game/NewBlueprint.PackageMetaData'
+[2020.09.04-04.03.37:815][734]LogMetaData: Removing '/Game/BP_Basketball_Game/BP_籃球檢查區塊.SKEL_BP_籃球檢查區塊_C' ref from Metadata '/Game/BP_Basketball_Game/NewBlueprint.PackageMetaData'
+[2020.09.04-04.03.37:815][734]LogMetaData: Removing '/Game/BP_Basketball_Game/BP_籃球檢查區塊.BP_籃球檢查區塊_C' ref from Metadata '/Game/BP_Basketball_Game/NewBlueprint.PackageMetaData'
+[2020.09.04-04.03.37:815][734]LogMetaData: Removing '/Game/BP_Basketball_Game/BP_籃球檢查區塊.BP_籃球檢查區塊:EventGraph.K2Node_Event_0' ref from Metadata '/Game/BP_Basketball_Game/NewBlueprint.PackageMetaData'
+[2020.09.04-04.03.37:815][734]LogMetaData: Removing '/Game/BP_Basketball_Game/BP_籃球檢查區塊.BP_籃球檢查區塊:EventGraph.K2Node_Event_1' ref from Metadata '/Game/BP_Basketball_Game/NewBlueprint.PackageMetaData'
+[2020.09.04-04.03.37:815][734]LogMetaData: Removing '/Game/BP_Basketball_Game/BP_籃球檢查區塊.BP_籃球檢查區塊:EventGraph.K2Node_Event_2' ref from Metadata '/Game/BP_Basketball_Game/NewBlueprint.PackageMetaData'
+[2020.09.04-04.03.37:856][734]LogSavePackage: Moving '../../../../../../Users/IM/Desktop/2020_september_VR_Basketball/VR_Basketball/Saved/BP_籃球檢查區塊1C7B56B2438AD13F94D213B14BCF3DAF.tmp' to '../../../../../../Users/IM/Desktop/2020_september_VR_Basketball/VR_Basketball/Content/BP_Basketball_Game/BP_籃球檢查區塊.uasset'
+[2020.09.04-04.03.38:049][734]LogUObjectHash: Compacting FUObjectHashTables data took   3.90ms
+[2020.09.04-04.03.38:093][734]LogUObjectHash: Compacting FUObjectHashTables data took   2.91ms
+[2020.09.04-04.03.38:129][734]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2020.09.04-04.03.38:165][734]AssetCheck: New page: Asset Save: BP_籃球檢查區塊
+[2020.09.04-04.03.38:165][734]LogContentValidation: Display: Validating Blueprint /Game/BP_Basketball_Game/BP_籃球檢查區塊.BP_籃球檢查區塊
+[2020.09.04-04.03.53:648][ 59]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_Basketball_Game/BP_籃球檢查區塊.BP_籃球檢查區塊
+[2020.09.04-04.03.56:414][358]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2020.09.04-04.03.56:414][358]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.04-04.03.56:464][358]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_Basketball_Game/BP_籃球檢查區塊.BP_籃球檢查區塊
+[2020.09.04-04.04.41:920][ 24]BlueprintLog: New page: Compile BP_籃球檢查區塊
+[2020.09.04-04.04.42:166][ 24]LogUObjectHash: Compacting FUObjectHashTables data took   4.26ms
+[2020.09.04-04.04.42:430][ 51]LogSavePackage: Moving '../../../../../../Users/IM/Desktop/2020_september_VR_Basketball/VR_Basketball/Saved/BP_籃球檢查區塊13B392CC49EFB5C9EB6E168985FA7053.tmp' to '../../../../../../Users/IM/Desktop/2020_september_VR_Basketball/VR_Basketball/Content/BP_Basketball_Game/BP_籃球檢查區塊.uasset'
+[2020.09.04-04.04.42:441][ 51]AssetCheck: New page: Asset Save: BP_籃球檢查區塊
+[2020.09.04-04.04.42:441][ 51]LogContentValidation: Display: Validating Blueprint /Game/BP_Basketball_Game/BP_籃球檢查區塊.BP_籃球檢查區塊
+[2020.09.04-04.05.42:597][228]BlueprintLog: New page: Compile BP_籃球檢查區塊
+[2020.09.04-04.05.42:847][228]LogUObjectHash: Compacting FUObjectHashTables data took   4.24ms
+[2020.09.04-04.05.43:094][252]LogSavePackage: Moving '../../../../../../Users/IM/Desktop/2020_september_VR_Basketball/VR_Basketball/Saved/BP_籃球檢查區塊070C2FC24165947F0490B585D7CA12BA.tmp' to '../../../../../../Users/IM/Desktop/2020_september_VR_Basketball/VR_Basketball/Content/BP_Basketball_Game/BP_籃球檢查區塊.uasset'
+[2020.09.04-04.05.43:107][252]AssetCheck: New page: Asset Save: BP_籃球檢查區塊
+[2020.09.04-04.05.43:107][252]LogContentValidation: Display: Validating Blueprint /Game/BP_Basketball_Game/BP_籃球檢查區塊.BP_籃球檢查區塊
+[2020.09.04-04.06.19:591][570]LogPhysics: Warning: Scale for /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.BP_籃球檢查區塊_4.籃球檢查區塊 has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2020.09.04-04.06.23:793][ 57]LogPhysics: Warning: Scale for /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.BP_籃球檢查區塊_4.籃球檢查區塊 has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2020.09.04-04.06.27:134][454]LogPhysics: Warning: Scale for /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.BP_籃球檢查區塊_4.籃球檢查區塊 has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2020.09.04-04.06.53:328][557]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ta)
+[2020.09.04-04.06.56:465][926]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2020.09.04-04.06.58:614][172]LogUObjectHash: Compacting FUObjectHashTables data took   4.07ms
+[2020.09.04-04.06.58:867][172]LogSavePackage: Moving '../../../../../../Users/IM/Desktop/2020_september_VR_Basketball/VR_Basketball/Saved/MotionControllerMap7F3FEDAD409724FDED2ACFB38C35ADE5.tmp' to '../../../../../../Users/IM/Desktop/2020_september_VR_Basketball/VR_Basketball/Content/VirtualRealityBP/Maps/MotionControllerMap.umap'
+[2020.09.04-04.06.58:977][172]LogSavePackage: Moving '../../../../../../Users/IM/Desktop/2020_september_VR_Basketball/VR_Basketball/Saved/MotionControllerMap_BuiltData318A93484AD35B193446ABB634D57B42.tmp' to '../../../../../../Users/IM/Desktop/2020_september_VR_Basketball/VR_Basketball/Content/VirtualRealityBP/Maps/MotionControllerMap_BuiltData.uasset'
+[2020.09.04-04.06.58:995][172]AssetCheck: New page: Asset Save: multiple assets
+[2020.09.04-04.06.58:995][172]LogContentValidation: Display: Validating World /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap
+[2020.09.04-04.06.58:995][172]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/VirtualRealityBP/Maps/MotionControllerMap_BuiltData.MotionControllerMap_BuiltData
+[2020.09.04-04.07.22:743][363]LogSlate: Took 0.041115 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2020.09.04-04.09.54:014][180]LogEditorTransaction: Undo Delete current selection
+[2020.09.04-04.10.54:190][706]BlueprintLog: New page: Compile BP_籃球檢查區塊
+[2020.09.04-04.10.54:440][706]LogUObjectHash: Compacting FUObjectHashTables data took   4.03ms
+[2020.09.04-04.10.54:694][731]LogSavePackage: Moving '../../../../../../Users/IM/Desktop/2020_september_VR_Basketball/VR_Basketball/Saved/BP_籃球檢查區塊4365F96B4E4AE93C72EF1B8EE2755132.tmp' to '../../../../../../Users/IM/Desktop/2020_september_VR_Basketball/VR_Basketball/Content/BP_Basketball_Game/BP_籃球檢查區塊.uasset'
+[2020.09.04-04.10.54:708][731]AssetCheck: New page: Asset Save: BP_籃球檢查區塊
+[2020.09.04-04.10.54:708][731]LogContentValidation: Display: Validating Blueprint /Game/BP_Basketball_Game/BP_籃球檢查區塊.BP_籃球檢查區塊
+[2020.09.04-04.10.56:590][933]LogTemp: Repeating last play command: Selected Viewport
+[2020.09.04-04.10.56:664][933]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2020.09.04-04.10.56:794][933]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.04-04.10.56:833][933]PIE: New page: PIE session: MotionControllerMap (2020年9月4日 下午8:10:56)
+[2020.09.04-04.10.56:969][933]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.09.04-04.10.56:970][933]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.09.04-04.10.57:004][933]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2020.09.04-04.10.57:028][933]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023648s)
+[2020.09.04-04.10.57:048][933]LogAIModule: Creating AISystem for world MotionControllerMap
+[2020.09.04-04.10.57:061][933]LogPlayLevel: PIE: World Init took: (0.033332s)
+[2020.09.04-04.10.57:062][933]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.057669s)
+[2020.09.04-04.10.57:102][933]LogUObjectHash: Compacting FUObjectHashTables data took   4.05ms
+[2020.09.04-04.10.57:124][933]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.04-04.10.57:124][933]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.04-04.10.57:124][933]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.04-04.10.57:124][933]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.04-04.10.57:124][933]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.04-04.10.57:124][933]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.04-04.10.57:124][933]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.04-04.10.57:124][933]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.04-04.10.57:124][933]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.04-04.10.57:124][933]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.04-04.10.57:129][933]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.09.04-04.10.57:129][933]LogAudioMixer: Display: Name: 喇叭 (Realtek(R) Audio)
+[2020.09.04-04.10.57:129][933]LogAudioMixer: Display: Is Default: Yes
+[2020.09.04-04.10.57:129][933]LogAudioMixer: Display: Sample Rate: 48000
+[2020.09.04-04.10.57:129][933]LogAudioMixer: Display: Channel Count Used: 2
+[2020.09.04-04.10.57:129][933]LogAudioMixer: Display: Device Channel Count: 2
+[2020.09.04-04.10.57:129][933]LogAudioMixer: Display: Channel Order:
+[2020.09.04-04.10.57:129][933]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.04-04.10.57:129][933]LogAudioMixer: Display: 1: FrontRight
+[2020.09.04-04.10.57:222][933]LogAudioMixer: Display: Using Audio Device 喇叭 (Realtek(R) Audio)
+[2020.09.04-04.10.57:246][933]LogInit: FAudioDevice initialized.
+[2020.09.04-04.10.57:280][933]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.04-04.10.57:318][933]LogLoad: Game class is 'GameModeBase'
+[2020.09.04-04.10.57:527][933]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2020.09.04-12.10.57
+[2020.09.04-04.10.57:565][933]LogWorld: Bringing up level for play took: 0.039915
+[2020.09.04-04.10.57:566][933]LogOnline: OSS: Creating online subsystem instance for: :Context_20
+[2020.09.04-04.10.57:603][933]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2020.09.04-04.10.57:891][933]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2020.09.04-04.10.58:222][933]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap 2.179
+[2020.09.04-04.10.58:222][933]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2020.09.04-04.11.01:632][238]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.04-04.11.01:632][238]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.04-04.11.01:659][238]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2020.09.04-04.11.01:685][238]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.04-04.11.01:685][238]LogWorld: BeginTearingDown for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2020.09.04-04.11.01:697][238]LogSlate: Window 'VR_Basketball Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.09.04-04.11.01:702][238]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.04-04.11.01:718][238]LogWorld: UWorld::CleanupWorld for MotionControllerMap, bSessionEnded=true, bCleanupResources=true
+[2020.09.04-04.11.01:719][238]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.04-04.11.01:732][238]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.09.04-04.11.01:732][238]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2020.09.04-04.11.01:738][238]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.04-04.11.01:778][238]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.04-04.11.01:922][238]LogUObjectHash: Compacting FUObjectHashTables data took   4.71ms
+[2020.09.04-04.11.01:954][239]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2020.09.04-04.11.08:547][  9]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2020.09.04-04.11.08:547][  9]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.04-04.11.08:547][  9]PIE: New page: SIE session: MotionControllerMap (2020年9月4日 下午8:11:08)
+[2020.09.04-04.11.08:547][  9]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2020.09.04-04.11.08:557][  9]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009707s)
+[2020.09.04-04.11.08:558][  9]LogAIModule: Creating AISystem for world MotionControllerMap
+[2020.09.04-04.11.08:558][  9]LogPlayLevel: PIE: World Init took: (0.000802s)
+[2020.09.04-04.11.08:558][  9]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.010607s)
+[2020.09.04-04.11.08:603][  9]LogUObjectHash: Compacting FUObjectHashTables data took   4.27ms
+[2020.09.04-04.11.08:606][  9]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.04-04.11.08:606][  9]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.04-04.11.08:606][  9]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.04-04.11.08:606][  9]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.04-04.11.08:606][  9]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.04-04.11.08:606][  9]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.04-04.11.08:606][  9]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.04-04.11.08:606][  9]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.04-04.11.08:606][  9]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.04-04.11.08:606][  9]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.04-04.11.08:609][  9]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.09.04-04.11.08:609][  9]LogAudioMixer: Display: Name: 喇叭 (Realtek(R) Audio)
+[2020.09.04-04.11.08:609][  9]LogAudioMixer: Display: Is Default: Yes
+[2020.09.04-04.11.08:609][  9]LogAudioMixer: Display: Sample Rate: 48000
+[2020.09.04-04.11.08:609][  9]LogAudioMixer: Display: Channel Count Used: 2
+[2020.09.04-04.11.08:609][  9]LogAudioMixer: Display: Device Channel Count: 2
+[2020.09.04-04.11.08:609][  9]LogAudioMixer: Display: Channel Order:
+[2020.09.04-04.11.08:609][  9]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.04-04.11.08:609][  9]LogAudioMixer: Display: 1: FrontRight
+[2020.09.04-04.11.08:696][  9]LogAudioMixer: Display: Using Audio Device 喇叭 (Realtek(R) Audio)
+[2020.09.04-04.11.08:697][  9]LogInit: FAudioDevice initialized.
+[2020.09.04-04.11.08:723][  9]LogLoad: Game class is 'GameModeBase'
+[2020.09.04-04.11.08:726][  9]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2020.09.04-12.11.08
+[2020.09.04-04.11.08:726][  9]LogWorld: Bringing up level for play took: 0.001406
+[2020.09.04-04.11.08:726][  9]LogOnline: OSS: Creating online subsystem instance for: :Context_21
+[2020.09.04-04.11.08:727][  9]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2020.09.04-04.11.08:796][  9]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap 0.754
+[2020.09.04-04.11.08:869][  9]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2020.09.04-04.11.13:198][519]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.04-04.11.13:198][519]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.04-04.11.13:198][519]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2020.09.04-04.11.13:198][519]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.04-04.11.13:198][519]LogWorld: BeginTearingDown for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2020.09.04-04.11.13:199][519]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.04-04.11.13:199][519]LogWorld: UWorld::CleanupWorld for MotionControllerMap, bSessionEnded=true, bCleanupResources=true
+[2020.09.04-04.11.13:200][519]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.04-04.11.13:233][519]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.09.04-04.11.13:233][519]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2020.09.04-04.11.13:239][519]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.04-04.11.13:279][519]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.04-04.11.13:302][519]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.04-04.11.13:306][519]LogUObjectHash: Compacting FUObjectHashTables data took   3.37ms
+[2020.09.04-04.11.13:319][520]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2020.09.04-04.11.14:006][601]LogTemp: Repeating last play command: Simulate
+[2020.09.04-04.11.14:018][601]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2020.09.04-04.11.14:018][601]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.04-04.11.14:018][601]PIE: New page: SIE session: MotionControllerMap (2020年9月4日 下午8:11:14)
+[2020.09.04-04.11.14:019][601]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2020.09.04-04.11.14:029][601]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009441s)
+[2020.09.04-04.11.14:029][601]LogAIModule: Creating AISystem for world MotionControllerMap
+[2020.09.04-04.11.14:030][601]LogPlayLevel: PIE: World Init took: (0.000704s)
+[2020.09.04-04.11.14:030][601]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.010260s)
+[2020.09.04-04.11.14:072][601]LogUObjectHash: Compacting FUObjectHashTables data took   3.55ms
+[2020.09.04-04.11.14:075][601]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.04-04.11.14:075][601]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.04-04.11.14:075][601]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.04-04.11.14:075][601]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.04-04.11.14:075][601]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.04-04.11.14:075][601]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.04-04.11.14:075][601]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.04-04.11.14:075][601]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.04-04.11.14:075][601]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.04-04.11.14:075][601]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.04-04.11.14:079][601]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.09.04-04.11.14:079][601]LogAudioMixer: Display: Name: 喇叭 (Realtek(R) Audio)
+[2020.09.04-04.11.14:079][601]LogAudioMixer: Display: Is Default: Yes
+[2020.09.04-04.11.14:079][601]LogAudioMixer: Display: Sample Rate: 48000
+[2020.09.04-04.11.14:079][601]LogAudioMixer: Display: Channel Count Used: 2
+[2020.09.04-04.11.14:079][601]LogAudioMixer: Display: Device Channel Count: 2
+[2020.09.04-04.11.14:079][601]LogAudioMixer: Display: Channel Order:
+[2020.09.04-04.11.14:079][601]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.04-04.11.14:079][601]LogAudioMixer: Display: 1: FrontRight
+[2020.09.04-04.11.14:165][601]LogAudioMixer: Display: Using Audio Device 喇叭 (Realtek(R) Audio)
+[2020.09.04-04.11.14:166][601]LogInit: FAudioDevice initialized.
+[2020.09.04-04.11.14:175][601]LogLoad: Game class is 'GameModeBase'
+[2020.09.04-04.11.14:177][601]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2020.09.04-12.11.14
+[2020.09.04-04.11.14:177][601]LogWorld: Bringing up level for play took: 0.001405
+[2020.09.04-04.11.14:177][601]LogOnline: OSS: Creating online subsystem instance for: :Context_22
+[2020.09.04-04.11.14:178][601]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2020.09.04-04.11.14:180][601]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap 0.137
+[2020.09.04-04.11.14:181][601]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2020.09.04-04.11.15:616][773]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.04-04.11.15:616][773]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.04-04.11.15:616][773]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2020.09.04-04.11.15:617][773]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.04-04.11.15:617][773]LogWorld: BeginTearingDown for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2020.09.04-04.11.15:617][773]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.04-04.11.15:617][773]LogWorld: UWorld::CleanupWorld for MotionControllerMap, bSessionEnded=true, bCleanupResources=true
+[2020.09.04-04.11.15:618][773]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.04-04.11.15:626][773]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.09.04-04.11.15:626][773]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2020.09.04-04.11.15:633][773]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.04-04.11.15:672][773]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.04-04.11.15:674][773]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.04-04.11.15:679][773]LogUObjectHash: Compacting FUObjectHashTables data took   3.58ms
+[2020.09.04-04.11.15:717][777]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2020.09.04-04.13.20:594][753]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2020.09.04-04.13.20:594][753]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.04-04.13.20:594][753]PIE: New page: SIE session: MotionControllerMap (2020年9月4日 下午8:13:20)
+[2020.09.04-04.13.20:594][753]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2020.09.04-04.13.20:604][753]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009515s)
+[2020.09.04-04.13.20:605][753]LogAIModule: Creating AISystem for world MotionControllerMap
+[2020.09.04-04.13.20:605][753]LogPlayLevel: PIE: World Init took: (0.000728s)
+[2020.09.04-04.13.20:605][753]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.010335s)
+[2020.09.04-04.13.20:646][753]LogUObjectHash: Compacting FUObjectHashTables data took   3.43ms
+[2020.09.04-04.13.20:647][753]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.04-04.13.20:647][753]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.04-04.13.20:647][753]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.04-04.13.20:647][753]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.04-04.13.20:647][753]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.04-04.13.20:647][753]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.04-04.13.20:647][753]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.04-04.13.20:647][753]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.04-04.13.20:647][753]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.04-04.13.20:647][753]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.04-04.13.20:652][753]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.09.04-04.13.20:652][753]LogAudioMixer: Display: Name: 喇叭 (Realtek(R) Audio)
+[2020.09.04-04.13.20:652][753]LogAudioMixer: Display: Is Default: Yes
+[2020.09.04-04.13.20:652][753]LogAudioMixer: Display: Sample Rate: 48000
+[2020.09.04-04.13.20:652][753]LogAudioMixer: Display: Channel Count Used: 2
+[2020.09.04-04.13.20:652][753]LogAudioMixer: Display: Device Channel Count: 2
+[2020.09.04-04.13.20:652][753]LogAudioMixer: Display: Channel Order:
+[2020.09.04-04.13.20:652][753]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.04-04.13.20:652][753]LogAudioMixer: Display: 1: FrontRight
+[2020.09.04-04.13.20:744][753]LogAudioMixer: Display: Using Audio Device 喇叭 (Realtek(R) Audio)
+[2020.09.04-04.13.20:745][753]LogInit: FAudioDevice initialized.
+[2020.09.04-04.13.20:750][753]LogLoad: Game class is 'GameModeBase'
+[2020.09.04-04.13.20:752][753]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2020.09.04-12.13.20
+[2020.09.04-04.13.20:752][753]LogWorld: Bringing up level for play took: 0.001372
+[2020.09.04-04.13.20:752][753]LogOnline: OSS: Creating online subsystem instance for: :Context_23
+[2020.09.04-04.13.20:753][753]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2020.09.04-04.13.20:755][753]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap 0.712
+[2020.09.04-04.13.20:756][753]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2020.09.04-04.13.30:597][914]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.04-04.13.30:597][914]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.04-04.13.30:597][914]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2020.09.04-04.13.30:597][914]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.04-04.13.30:597][914]LogWorld: BeginTearingDown for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2020.09.04-04.13.30:598][914]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.04-04.13.30:598][914]LogWorld: UWorld::CleanupWorld for MotionControllerMap, bSessionEnded=true, bCleanupResources=true
+[2020.09.04-04.13.30:598][914]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.04-04.13.30:608][914]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.09.04-04.13.30:609][914]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2020.09.04-04.13.30:614][914]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.04-04.13.30:653][914]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.04-04.13.30:655][914]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.04-04.13.30:659][914]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
+[2020.09.04-04.13.30:698][918]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2020.09.04-04.13.32:029][ 74]LogEditorViewport: Clicking on Actor (LMB): BP_籃球_C (BP_籃球)
+[2020.09.04-04.13.34:717][393]Cmd: TRANSACTION UNDO
+[2020.09.04-04.13.34:717][393]LogEditorTransaction: Undo Move Actors
+[2020.09.04-04.13.37:495][668]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2020.09.04-04.13.37:495][668]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.04-04.13.37:495][668]PIE: New page: SIE session: MotionControllerMap (2020年9月4日 下午8:13:37)
+[2020.09.04-04.13.37:495][668]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2020.09.04-04.13.37:505][668]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009499s)
+[2020.09.04-04.13.37:505][668]LogAIModule: Creating AISystem for world MotionControllerMap
+[2020.09.04-04.13.37:505][668]LogPlayLevel: PIE: World Init took: (0.000679s)
+[2020.09.04-04.13.37:505][668]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.010271s)
+[2020.09.04-04.13.37:546][668]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
+[2020.09.04-04.13.37:547][668]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.04-04.13.37:547][668]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.04-04.13.37:547][668]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.04-04.13.37:547][668]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.04-04.13.37:547][668]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.04-04.13.37:547][668]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.04-04.13.37:547][668]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.04-04.13.37:547][668]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.04-04.13.37:547][668]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.04-04.13.37:547][668]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.04-04.13.37:551][668]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.09.04-04.13.37:551][668]LogAudioMixer: Display: Name: 喇叭 (Realtek(R) Audio)
+[2020.09.04-04.13.37:551][668]LogAudioMixer: Display: Is Default: Yes
+[2020.09.04-04.13.37:551][668]LogAudioMixer: Display: Sample Rate: 48000
+[2020.09.04-04.13.37:551][668]LogAudioMixer: Display: Channel Count Used: 2
+[2020.09.04-04.13.37:551][668]LogAudioMixer: Display: Device Channel Count: 2
+[2020.09.04-04.13.37:551][668]LogAudioMixer: Display: Channel Order:
+[2020.09.04-04.13.37:551][668]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.04-04.13.37:551][668]LogAudioMixer: Display: 1: FrontRight
+[2020.09.04-04.13.37:641][668]LogAudioMixer: Display: Using Audio Device 喇叭 (Realtek(R) Audio)
+[2020.09.04-04.13.37:642][668]LogInit: FAudioDevice initialized.
+[2020.09.04-04.13.37:648][668]LogLoad: Game class is 'GameModeBase'
+[2020.09.04-04.13.37:650][668]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2020.09.04-12.13.37
+[2020.09.04-04.13.37:650][668]LogWorld: Bringing up level for play took: 0.001418
+[2020.09.04-04.13.37:651][668]LogOnline: OSS: Creating online subsystem instance for: :Context_24
+[2020.09.04-04.13.37:652][668]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2020.09.04-04.13.37:654][668]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap -0.389
+[2020.09.04-04.13.37:658][668]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2020.09.04-04.14.09:805][156]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.04-04.14.09:805][156]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.04-04.14.09:805][156]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2020.09.04-04.14.09:805][156]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.04-04.14.09:805][156]LogWorld: BeginTearingDown for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2020.09.04-04.14.09:806][156]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.04-04.14.09:806][156]LogWorld: UWorld::CleanupWorld for MotionControllerMap, bSessionEnded=true, bCleanupResources=true
+[2020.09.04-04.14.09:807][156]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.04-04.14.09:813][156]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.09.04-04.14.09:813][156]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2020.09.04-04.14.09:818][156]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.04-04.14.09:855][156]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.04-04.14.09:858][156]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.04-04.14.09:862][156]LogUObjectHash: Compacting FUObjectHashTables data took   3.20ms
+[2020.09.04-04.14.09:910][161]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2020.09.04-04.14.11:947][404]LogTemp: Repeating last play command: Simulate
+[2020.09.04-04.14.11:959][404]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2020.09.04-04.14.11:959][404]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.04-04.14.11:959][404]PIE: New page: SIE session: MotionControllerMap (2020年9月4日 下午8:14:11)
+[2020.09.04-04.14.11:959][404]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2020.09.04-04.14.11:969][404]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010080s)
+[2020.09.04-04.14.11:970][404]LogAIModule: Creating AISystem for world MotionControllerMap
+[2020.09.04-04.14.11:970][404]LogPlayLevel: PIE: World Init took: (0.000727s)
+[2020.09.04-04.14.11:970][404]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.010907s)
+[2020.09.04-04.14.12:006][404]LogUObjectHash: Compacting FUObjectHashTables data took   3.18ms
+[2020.09.04-04.14.12:006][404]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.04-04.14.12:006][404]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.04-04.14.12:006][404]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.04-04.14.12:006][404]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.04-04.14.12:006][404]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.04-04.14.12:006][404]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.04-04.14.12:006][404]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.04-04.14.12:006][404]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.04-04.14.12:007][404]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.04-04.14.12:007][404]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.04-04.14.12:011][404]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.09.04-04.14.12:011][404]LogAudioMixer: Display: Name: 喇叭 (Realtek(R) Audio)
+[2020.09.04-04.14.12:011][404]LogAudioMixer: Display: Is Default: Yes
+[2020.09.04-04.14.12:011][404]LogAudioMixer: Display: Sample Rate: 48000
+[2020.09.04-04.14.12:011][404]LogAudioMixer: Display: Channel Count Used: 2
+[2020.09.04-04.14.12:011][404]LogAudioMixer: Display: Device Channel Count: 2
+[2020.09.04-04.14.12:011][404]LogAudioMixer: Display: Channel Order:
+[2020.09.04-04.14.12:011][404]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.04-04.14.12:011][404]LogAudioMixer: Display: 1: FrontRight
+[2020.09.04-04.14.12:102][404]LogAudioMixer: Display: Using Audio Device 喇叭 (Realtek(R) Audio)
+[2020.09.04-04.14.12:103][404]LogInit: FAudioDevice initialized.
+[2020.09.04-04.14.12:112][404]LogLoad: Game class is 'GameModeBase'
+[2020.09.04-04.14.12:114][404]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2020.09.04-12.14.12
+[2020.09.04-04.14.12:114][404]LogWorld: Bringing up level for play took: 0.001408
+[2020.09.04-04.14.12:114][404]LogOnline: OSS: Creating online subsystem instance for: :Context_25
+[2020.09.04-04.14.12:115][404]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2020.09.04-04.14.12:117][404]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap 0.074
+[2020.09.04-04.14.12:118][404]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2020.09.04-04.14.13:285][536]LogEditorViewport: Clicking on Actor (LMB): BP_籃球_C (BP_籃球)
+[2020.09.04-04.14.25:273][911]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.04-04.14.25:273][911]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.04-04.14.25:273][911]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2020.09.04-04.14.25:274][911]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.04-04.14.25:274][911]LogWorld: BeginTearingDown for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2020.09.04-04.14.25:275][911]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.04-04.14.25:275][911]LogWorld: UWorld::CleanupWorld for MotionControllerMap, bSessionEnded=true, bCleanupResources=true
+[2020.09.04-04.14.25:275][911]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.04-04.14.25:284][911]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.09.04-04.14.25:284][911]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2020.09.04-04.14.25:290][911]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.04-04.14.25:328][911]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.04-04.14.25:331][911]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.04-04.14.25:336][911]LogUObjectHash: Compacting FUObjectHashTables data took   3.44ms
+[2020.09.04-04.14.25:380][914]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2020.09.04-04.14.28:399][275]LogEditorViewport: Clicking on Actor (LMB): BP_籃球_C (BP_籃球)
+[2020.09.04-04.14.38:889][525]LogTemp: Repeating last play command: Simulate
+[2020.09.04-04.14.38:902][525]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2020.09.04-04.14.38:902][525]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.04-04.14.38:902][525]PIE: New page: SIE session: MotionControllerMap (2020年9月4日 下午8:14:38)
+[2020.09.04-04.14.38:902][525]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2020.09.04-04.14.38:912][525]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009585s)
+[2020.09.04-04.14.38:912][525]LogAIModule: Creating AISystem for world MotionControllerMap
+[2020.09.04-04.14.38:912][525]LogPlayLevel: PIE: World Init took: (0.000679s)
+[2020.09.04-04.14.38:912][525]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.010358s)
+[2020.09.04-04.14.38:954][525]LogUObjectHash: Compacting FUObjectHashTables data took   3.19ms
+[2020.09.04-04.14.38:955][525]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.04-04.14.38:955][525]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.04-04.14.38:955][525]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.04-04.14.38:955][525]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.04-04.14.38:955][525]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.04-04.14.38:955][525]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.04-04.14.38:955][525]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.04-04.14.38:955][525]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.04-04.14.38:955][525]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.04-04.14.38:955][525]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.04-04.14.38:959][525]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.09.04-04.14.38:959][525]LogAudioMixer: Display: Name: 喇叭 (Realtek(R) Audio)
+[2020.09.04-04.14.38:959][525]LogAudioMixer: Display: Is Default: Yes
+[2020.09.04-04.14.38:959][525]LogAudioMixer: Display: Sample Rate: 48000
+[2020.09.04-04.14.38:959][525]LogAudioMixer: Display: Channel Count Used: 2
+[2020.09.04-04.14.38:959][525]LogAudioMixer: Display: Device Channel Count: 2
+[2020.09.04-04.14.38:959][525]LogAudioMixer: Display: Channel Order:
+[2020.09.04-04.14.38:959][525]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.04-04.14.38:959][525]LogAudioMixer: Display: 1: FrontRight
+[2020.09.04-04.14.39:049][525]LogAudioMixer: Display: Using Audio Device 喇叭 (Realtek(R) Audio)
+[2020.09.04-04.14.39:050][525]LogInit: FAudioDevice initialized.
+[2020.09.04-04.14.39:060][525]LogLoad: Game class is 'GameModeBase'
+[2020.09.04-04.14.39:062][525]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2020.09.04-12.14.39
+[2020.09.04-04.14.39:062][525]LogWorld: Bringing up level for play took: 0.001458
+[2020.09.04-04.14.39:062][525]LogOnline: OSS: Creating online subsystem instance for: :Context_26
+[2020.09.04-04.14.39:063][525]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2020.09.04-04.14.39:065][525]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap 1.022
+[2020.09.04-04.14.39:069][525]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2020.09.04-04.14.39:534][575]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：1
+[2020.09.04-04.14.50:599][852]LogEditorViewport: Clicking on Actor (LMB): BP_籃球_C (BP_籃球)
+[2020.09.04-04.15.00:389][951]LogEditorViewport: Clicking on Actor (LMB): BP_籃球_C (BP_籃球)
+[2020.09.04-04.15.09:233][974]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.04-04.15.09:233][974]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.04-04.15.09:234][974]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2020.09.04-04.15.09:234][974]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.04-04.15.09:234][974]LogWorld: BeginTearingDown for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2020.09.04-04.15.09:235][974]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.04-04.15.09:235][974]LogWorld: UWorld::CleanupWorld for MotionControllerMap, bSessionEnded=true, bCleanupResources=true
+[2020.09.04-04.15.09:235][974]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.04-04.15.09:243][974]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.09.04-04.15.09:243][974]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2020.09.04-04.15.09:248][974]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.04-04.15.09:284][974]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.04-04.15.09:286][974]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.04-04.15.09:291][974]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
+[2020.09.04-04.15.09:340][979]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2020.09.04-04.15.11:400][222]Cmd: TRANSACTION UNDO
+[2020.09.04-04.15.11:400][222]LogEditorTransaction: Undo Move Actors
+[2020.09.04-04.15.12:057][253]Cmd: TRANSACTION UNDO
+[2020.09.04-04.15.12:057][253]LogEditorTransaction: Undo Move Actors
+[2020.09.04-04.15.12:408][295]Cmd: TRANSACTION UNDO
+[2020.09.04-04.15.12:408][295]LogEditorTransaction: Undo Move Actors
+[2020.09.04-04.15.13:994][471]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2020.09.04-04.15.14:274][471]LogSavePackage: Moving '../../../../../../Users/IM/Desktop/2020_september_VR_Basketball/VR_Basketball/Saved/MotionControllerMap91C7031C4CFB4760E15A26A1A236E82F.tmp' to '../../../../../../Users/IM/Desktop/2020_september_VR_Basketball/VR_Basketball/Content/VirtualRealityBP/Maps/MotionControllerMap.umap'
+[2020.09.04-04.15.14:382][471]LogSavePackage: Moving '../../../../../../Users/IM/Desktop/2020_september_VR_Basketball/VR_Basketball/Saved/MotionControllerMap_BuiltData6147637448ADCF2F53C832B853DA9624.tmp' to '../../../../../../Users/IM/Desktop/2020_september_VR_Basketball/VR_Basketball/Content/VirtualRealityBP/Maps/MotionControllerMap_BuiltData.uasset'
+[2020.09.04-04.15.14:402][471]AssetCheck: New page: Asset Save: multiple assets
+[2020.09.04-04.15.14:402][471]LogContentValidation: Display: Validating World /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap
+[2020.09.04-04.15.14:402][471]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/VirtualRealityBP/Maps/MotionControllerMap_BuiltData.MotionControllerMap_BuiltData
+[2020.09.04-04.15.15:960][641]LogUObjectHash: Compacting FUObjectHashTables data took   4.03ms
+[2020.09.04-04.15.15:984][641]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/素材/Mamelon" FILE="../../../../../../Users/IM/Desktop/2020_september_VR_Basketball/VR_Basketball/Content/素材/Mamelon.uasset" SILENT=true
+[2020.09.04-04.15.15:990][641]LogSavePackage: Moving '../../../../../../Users/IM/Desktop/2020_september_VR_Basketball/VR_Basketball/Saved/MamelonFF8638CE48BBDB9C5CE80CBDD575BDDC.tmp' to '../../../../../../Users/IM/Desktop/2020_september_VR_Basketball/VR_Basketball/Content/素材/Mamelon.uasset'
+[2020.09.04-04.15.15:993][641]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/素材/Mamelon_Font" FILE="../../../../../../Users/IM/Desktop/2020_september_VR_Basketball/VR_Basketball/Content/素材/Mamelon_Font.uasset" SILENT=true
+[2020.09.04-04.15.15:998][641]LogSavePackage: Moving '../../../../../../Users/IM/Desktop/2020_september_VR_Basketball/VR_Basketball/Saved/Mamelon_Font39742887441954DC37EB438576178DF6.tmp' to '../../../../../../Users/IM/Desktop/2020_september_VR_Basketball/VR_Basketball/Content/素材/Mamelon_Font.uasset'
+[2020.09.04-04.15.16:020][641]AssetCheck: New page: Asset Save: multiple assets
+[2020.09.04-04.15.16:020][641]LogContentValidation: Display: Validating FontFace /Game/素材/Mamelon.Mamelon
+[2020.09.04-04.15.16:020][641]LogContentValidation: Display: Validating Font /Game/素材/Mamelon_Font.Mamelon_Font
