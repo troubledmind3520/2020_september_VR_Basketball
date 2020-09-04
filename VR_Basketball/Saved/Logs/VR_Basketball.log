@@ -3525,3 +3525,423 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.09.04-04.15.16:020][641]AssetCheck: New page: Asset Save: multiple assets
 [2020.09.04-04.15.16:020][641]LogContentValidation: Display: Validating FontFace /Game/素材/Mamelon.Mamelon
 [2020.09.04-04.15.16:020][641]LogContentValidation: Display: Validating Font /Game/素材/Mamelon_Font.Mamelon_Font
+[2020.09.04-04.16.33:009][ 99]LogAudioMixer: Warning: Changing default audio render device to new device: .
+[2020.09.04-04.16.33:009][ 99]LogTemp: Resetting audio stream to device id 
+[2020.09.04-04.49.02:941][919]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{3088183b-517c-4fcf-9495-f857c291c84b}.
+[2020.09.04-04.49.02:941][919]LogTemp: Resetting audio stream to device id 
+[2020.09.04-04.49.02:949][919]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.09.04-04.49.02:949][919]LogAudioMixer: Display: Name: 喇叭 (Realtek(R) Audio)
+[2020.09.04-04.49.02:949][919]LogAudioMixer: Display: Is Default: Yes
+[2020.09.04-04.49.02:949][919]LogAudioMixer: Display: Sample Rate: 48000
+[2020.09.04-04.49.02:949][919]LogAudioMixer: Display: Channel Count Used: 2
+[2020.09.04-04.49.02:949][919]LogAudioMixer: Display: Device Channel Count: 2
+[2020.09.04-04.49.02:949][919]LogAudioMixer: Display: Channel Order:
+[2020.09.04-04.49.02:949][919]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.04-04.49.02:949][919]LogAudioMixer: Display: 1: FrontRight
+[2020.09.04-04.57.07:416][516]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.09.04-04.57.07:416][516]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.04-04.57.07:882][564]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.09.04-04.57.07:882][564]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2020.09.04-04.57.07:882][564]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.04-04.57.08:327][611]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.09.04-04.57.08:327][611]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2020.09.04-04.57.08:327][611]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.04-04.57.12:053][ 23]MapCheck: New page: Map Check
+[2020.09.04-04.57.12:122][ 23]Cmd: MAP REBUILD ALLVISIBLE
+[2020.09.04-04.57.12:122][ 23]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2020.09.04-04.57.12:338][ 23]LogWorld: UWorld::CleanupWorld for MotionControllerMap, bSessionEnded=true, bCleanupResources=false
+[2020.09.04-04.57.12:424][ 23]LightingResults: New page: Lighting Build - 2020年9月4日 下午8:57:12
+[2020.09.04-04.57.13:019][ 23]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2020.09.04-04.57.13:202][ 23]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2020.09.04-04.57.13:306][ 23]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2020.09.04-04.57.18:123][ 23]LogSwarmInterface: Error: [TryOpenConnection] Waiting for the agent to start up ...
+[2020.09.04-04.57.18:544][ 23]LogSwarmInterface: Error: System.Net.Sockets.SocketException (0x80004005): 無法連線，因為目標電腦拒絕連線。 127.0.0.1:8008
+
+Server stack trace: 
+   於 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   於 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   於 System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   於 System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   於 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   於 System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.AsyncProcessRequest(IClientChannelSinkStack sinkStack, IMessage msg, ITransportHeaders headers, Stream stream)
+   於 System.Runtime.Remoting.Channels.BinaryClientFormatterSink.AsyncProcessMessage(IMessage msg, IMessageSink replySink)
+
+Exception rethrown at [0]: 
+   於 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   於 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   於 NSwarm.IAgentInterfaceWrapper.MethodDelegate.EndInvoke(Hashtable& OutParameters, IAsyncResult result)
+   於 NSwarm.FSwarmInterface.TryOpenConnection(FConnectionCallback CallbackFunc, IntPtr CallbackData, ELogFlags LoggingFlags) 於 D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Editor\SwarmInterface\DotNET\SwarmInterface.cs: 行 2811
+[2020.09.04-04.57.23:658][ 23]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2020.09.04-04.57.23:658][ 23]LogSwarmInterface: [TryOpenConnection] Local Process ID is 7808
+[2020.09.04-04.57.27:451][ 23]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2020.09.04-04.57.27:451][ 23]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2020.09.04-04.57.27:451][ 23]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2020.09.04-04.57.27:454][ 23]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2020.09.04-04.57.27:454][ 23]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2020.09.04-04.57.27:997][ 23]LogEditorBuildUtils: Build time 0:15
+[2020.09.04-04.57.28:042][ 23]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_0, compiling. 
+[2020.09.04-04.57.28:053][ 23]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_0, compiling. 
+[2020.09.04-04.57.28:093][ 23]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2020.09.04-04.57.28:094][ 23]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2020.09.04-04.57.28:094][ 23]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2020.09.04-04.57.28:094][ 23]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2020.09.04-04.57.28:365][ 24]LogUObjectHash: Compacting FUObjectHashTables data took   6.56ms
+[2020.09.04-04.57.28:707][ 24]LogSavePackage: Moving '../../../../../../Users/IM/Desktop/2020_september_VR_Basketball/VR_Basketball/Saved/MotionControllerMap_Auto41A33A4914727D7B215A830B7BA92196B.tmp' to '../../../../../../Users/IM/Desktop/2020_september_VR_Basketball/VR_Basketball/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_Auto4.umap'
+[2020.09.04-04.57.28:709][ 24]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/MotionControllerMap' took 0.468
+[2020.09.04-04.57.28:709][ 24]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.468
+[2020.09.04-04.57.28:723][ 24]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_BaseMaterial, compiling. 
+[2020.09.04-04.57.28:734][ 24]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2020.09.04-04.57.28:734][ 24]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2020.09.04-04.57.28:734][ 24]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_BaseMaterial, compiling. 
+[2020.09.04-04.57.28:773][ 24]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2020.09.04-04.57.28:773][ 24]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2020.09.04-04.57.28:795][ 25]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer COR_VEMEO_002, compiling. 
+[2020.09.04-04.57.28:806][ 25]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 2
+[2020.09.04-04.57.28:806][ 25]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1
+[2020.09.04-04.57.28:806][ 25]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer COR_VEMEO_002, compiling. 
+[2020.09.04-04.57.28:814][ 26]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2
+[2020.09.04-04.57.28:814][ 26]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1
+[2020.09.04-04.57.28:828][ 26]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MI_BaseMaterial2, compiling. 
+[2020.09.04-04.57.28:848][ 26]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MI_BaseMaterial2, compiling. 
+[2020.09.04-04.57.28:883][ 27]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MI_BaseMaterial3, compiling. 
+[2020.09.04-04.57.28:902][ 27]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MI_BaseMaterial3, compiling. 
+[2020.09.04-04.57.29:746][ 30]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2020.09.04-04.57.29:746][ 30]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 6
+[2020.09.04-04.57.29:746][ 30]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 5
+[2020.09.04-04.57.29:746][ 30]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 4
+[2020.09.04-04.57.29:746][ 30]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 3
+[2020.09.04-04.57.29:746][ 30]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2020.09.04-04.57.29:746][ 30]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 1
+[2020.09.04-04.57.30:748][ 35]LogUObjectHash: Compacting FUObjectHashTables data took   3.51ms
+[2020.09.04-04.57.37:079][ 45]LightingResults: Warning: ta Object has overlapping UVs.
+[2020.09.04-04.57.37:079][ 45]LightingResults: ta Lightmap UV are overlapping by 3.1%. Please adjust content - Enable Error Coloring to visualize.
+[2020.09.04-04.57.38:076][ 48]Job is a success!
+[2020.09.04-04.57.38:574][ 49]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.014s
+[2020.09.04-04.57.38:574][ 49]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2020.09.04-04.57.38:579][ 49]LogVolumetricLightmapImport:      BrickData (all levels) 0.4Mb
+[2020.09.04-04.57.38:579][ 49]LogVolumetricLightmapImport:      Bricks at depth
+[2020.09.04-04.57.38:579][ 49]LogVolumetricLightmapImport:          0: 1.2% covering 100.0% of volume
+[2020.09.04-04.57.38:579][ 49]LogVolumetricLightmapImport:          1: 9.9% covering 12.5% of volume
+[2020.09.04-04.57.38:579][ 49]LogVolumetricLightmapImport:          2: 88.9% covering 1.8% of volume
+[2020.09.04-04.57.38:579][ 49]LogVolumetricLightmapImport:      Bricks in each level
+[2020.09.04-04.57.38:579][ 49]LogVolumetricLightmapImport:          MotionControllerMap 			 81 bricks 	 100.0% (Persistent Level)
+[2020.09.04-04.57.39:064][ 49]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2020.09.04-04.57.39:064][ 49]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2020.09.04-04.57.39:064][ 49]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 1024X1024)
+[2020.09.04-04.57.39:064][ 49]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 1024X1024)
+[2020.09.04-04.57.39:064][ 49]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 64X64)
+[2020.09.04-04.57.39:064][ 49]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 64X64)
+[2020.09.04-04.57.39:265][ 49]LogTexture: Display: Building textures: ShadowMapTexture2D_5 (G8, 32X32)
+[2020.09.04-04.57.39:872][ 49]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (G8, 1024X256)
+[2020.09.04-04.57.39:872][ 49]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 1024X512)
+[2020.09.04-04.57.39:872][ 49]Lightmass on M514-050: 5.95 sec total, 291 ms importing, 57 ms setup, 976 ms photons, 3.14 sec processing, 0 ms extra exporting [52/52 mappings]. Threads: 34.5 sec total, 4.96 sec processing.
+[2020.09.04-04.57.39:880][ 49]LogStaticLightingSystem: MotionControllerMap_BuiltData storing lightmap data for 28 meshes in 3 LightmapResourceClusters (9.3 Meshes per cluster).
+[2020.09.04-04.57.39:886][ 49]LogMaterial: Display: Material /Game/籃球框/COR_VEMEO_002.COR_VEMEO_002 needed to have new flag set bUsedWithStaticLighting !
+[2020.09.04-04.57.39:891][ 49]LogMaterial: Display: Missing cached shader map for material COR_VEMEO_002, compiling. 
+[2020.09.04-04.57.39:944][ 49]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 24
+[2020.09.04-04.57.39:944][ 49]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 20
+[2020.09.04-04.57.39:944][ 49]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 16
+[2020.09.04-04.57.39:944][ 49]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 12
+[2020.09.04-04.57.39:944][ 49]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 8
+[2020.09.04-04.57.39:944][ 49]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2020.09.04-04.57.39:947][ 49]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2020.09.04-04.57.39:961][ 49]LogStaticLightingSystem: Illumination: 27.1 sec (292 ms encoding lightmaps, 265 ms encoding shadowmaps)
+[2020.09.04-04.57.39:961][ 49]LogStaticLightingSystem: Lightmap texture memory:  4.0 MB (2.0 MB streaming, 2.0 MB non-streaming), 6 textures
+[2020.09.04-04.57.39:961][ 49]LogStaticLightingSystem: Shadowmap texture memory: 1.0 MB (0.3 MB streaming, 0.7 MB non-streaming), 3 textures
+[2020.09.04-04.57.46:420][ 49]DumpUnbuiltLightIteractions
+[2020.09.04-04.57.46:420][ 49]Lights with unbuilt interactions: 0
+[2020.09.04-04.57.46:420][ 49]
+[2020.09.04-04.57.46:420][ 49]Primitives with unbuilt interactions: 0
+[2020.09.04-04.57.46:502][ 50]Cmd: MAP CHECK NOTIFYRESULTS
+[2020.09.04-04.57.46:502][ 50]MapCheck: New page: MotionControllerMap - 2020年9月4日 下午8:57:46
+[2020.09.04-04.57.46:648][ 50]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 146.644ms to complete.
+[2020.09.04-05.07.37:356][811]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2020.09.04-05.07.37:523][811]LogSavePackage: Moving '../../../../../../Users/IM/Desktop/2020_september_VR_Basketball/VR_Basketball/Saved/MotionControllerMap_Auto5B4A80F78442495D219BE0FA636E5EC1A.tmp' to '../../../../../../Users/IM/Desktop/2020_september_VR_Basketball/VR_Basketball/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_Auto5.umap'
+[2020.09.04-05.07.37:524][811]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/MotionControllerMap' took 0.213
+[2020.09.04-05.07.37:524][811]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.213
+[2020.09.04-05.07.37:525][811]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/籃球框/COR_VEMEO_002] ([1] browsable assets)...
+[2020.09.04-05.07.37:525][811]OBJ SavePackage: Finished generating thumbnails for package [/Game/籃球框/COR_VEMEO_002]
+[2020.09.04-05.07.37:535][811]LogSavePackage: Moving '../../../../../../Users/IM/Desktop/2020_september_VR_Basketball/VR_Basketball/Saved/COR_VEMEO_002_Auto546C54CD0480721C29FE44487870D9CFA.tmp' to '../../../../../../Users/IM/Desktop/2020_september_VR_Basketball/VR_Basketball/Saved/Autosaves/Game/籃球框/COR_VEMEO_002_Auto5.uasset'
+[2020.09.04-05.07.37:536][811]LogFileHelpers: Auto-saving content packages took 0.011
+[2020.09.04-05.26.10:753][387]LogSlate: Window 'Message Log' being destroyed
+[2020.09.04-05.26.10:758][387]LogSlate: Window 'Message Log' being destroyed
+[2020.09.04-05.26.13:257][674]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2020.09.04-05.26.13:303][674]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2020.09.04-05.26.13:465][674]LogSavePackage: Moving '../../../../../../Users/IM/Desktop/2020_september_VR_Basketball/VR_Basketball/Saved/MotionControllerMap1E41C8E642E7BBC87D562D9552EA8BC0.tmp' to '../../../../../../Users/IM/Desktop/2020_september_VR_Basketball/VR_Basketball/Content/VirtualRealityBP/Maps/MotionControllerMap.umap'
+[2020.09.04-05.26.13:494][674]LogFileHelpers: Saving map 'MotionControllerMap' took 0.217
+[2020.09.04-05.26.13:577][674]LogSavePackage: Moving '../../../../../../Users/IM/Desktop/2020_september_VR_Basketball/VR_Basketball/Saved/MotionControllerMap_BuiltData13A5A72C4CC01470AD4C6EA56C8BEE94.tmp' to '../../../../../../Users/IM/Desktop/2020_september_VR_Basketball/VR_Basketball/Content/VirtualRealityBP/Maps/MotionControllerMap_BuiltData.uasset'
+[2020.09.04-05.26.13:578][674]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/籃球框/COR_VEMEO_002" FILE="../../../../../../Users/IM/Desktop/2020_september_VR_Basketball/VR_Basketball/Content/籃球框/COR_VEMEO_002.uasset" SILENT=true
+[2020.09.04-05.26.13:606][674]LogSavePackage: Moving '../../../../../../Users/IM/Desktop/2020_september_VR_Basketball/VR_Basketball/Saved/COR_VEMEO_002D282A4DA4FA94EAB34D725B4F50C5117.tmp' to '../../../../../../Users/IM/Desktop/2020_september_VR_Basketball/VR_Basketball/Content/籃球框/COR_VEMEO_002.uasset'
+[2020.09.04-05.26.13:622][674]AssetCheck: New page: Asset Save: multiple assets
+[2020.09.04-05.26.13:622][674]LogContentValidation: Display: Validating World /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap
+[2020.09.04-05.26.13:622][674]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/VirtualRealityBP/Maps/MotionControllerMap_BuiltData.MotionControllerMap_BuiltData
+[2020.09.04-05.26.13:622][674]LogContentValidation: Display: Validating Material /Game/籃球框/COR_VEMEO_002.COR_VEMEO_002
+[2020.09.04-05.26.51:345][423]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_Basketball_Game/BP_籃球檢查區塊.BP_籃球檢查區塊
+[2020.09.04-05.27.07:757][302]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2020.09.04-05.27.23:367][128]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.09.04-05.30.01:459][590]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor)
+[2020.09.04-05.30.43:647][334]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2020.09.04-05.30.43:820][334]LogSavePackage: Moving '../../../../../../Users/IM/Desktop/2020_september_VR_Basketball/VR_Basketball/Saved/MotionControllerMap1FC3C41341D3464B48B5669BA8B6DDFB.tmp' to '../../../../../../Users/IM/Desktop/2020_september_VR_Basketball/VR_Basketball/Content/VirtualRealityBP/Maps/MotionControllerMap.umap'
+[2020.09.04-05.30.43:925][334]LogSavePackage: Moving '../../../../../../Users/IM/Desktop/2020_september_VR_Basketball/VR_Basketball/Saved/MotionControllerMap_BuiltDataEF58DCFF4F8528BEA29219A9CEA9BC37.tmp' to '../../../../../../Users/IM/Desktop/2020_september_VR_Basketball/VR_Basketball/Content/VirtualRealityBP/Maps/MotionControllerMap_BuiltData.uasset'
+[2020.09.04-05.30.43:940][334]AssetCheck: New page: Asset Save: multiple assets
+[2020.09.04-05.30.43:940][334]LogContentValidation: Display: Validating World /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap
+[2020.09.04-05.30.43:940][334]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/VirtualRealityBP/Maps/MotionControllerMap_BuiltData.MotionControllerMap_BuiltData
+[2020.09.04-05.32.13:435][782]BlueprintLog: New page: Compile BP_籃球檢查區塊
+[2020.09.04-05.32.13:594][782]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2020.09.04-05.32.13:987][823]LogSavePackage: Moving '../../../../../../Users/IM/Desktop/2020_september_VR_Basketball/VR_Basketball/Saved/BP_籃球檢查區塊DE825F194DFB9D5BD61FDCB7B9C42BBF.tmp' to '../../../../../../Users/IM/Desktop/2020_september_VR_Basketball/VR_Basketball/Content/BP_Basketball_Game/BP_籃球檢查區塊.uasset'
+[2020.09.04-05.32.13:998][823]AssetCheck: New page: Asset Save: BP_籃球檢查區塊
+[2020.09.04-05.32.13:998][823]LogContentValidation: Display: Validating Blueprint /Game/BP_Basketball_Game/BP_籃球檢查區塊.BP_籃球檢查區塊
+[2020.09.04-05.33.39:820][671]BlueprintLog: New page: Compile BP_籃球檢查區塊
+[2020.09.04-05.33.39:980][671]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2020.09.04-05.33.40:355][709]LogSavePackage: Moving '../../../../../../Users/IM/Desktop/2020_september_VR_Basketball/VR_Basketball/Saved/BP_籃球檢查區塊90ED844D49D1845574585BACD9528650.tmp' to '../../../../../../Users/IM/Desktop/2020_september_VR_Basketball/VR_Basketball/Content/BP_Basketball_Game/BP_籃球檢查區塊.uasset'
+[2020.09.04-05.33.40:366][709]AssetCheck: New page: Asset Save: BP_籃球檢查區塊
+[2020.09.04-05.33.40:366][709]LogContentValidation: Display: Validating Blueprint /Game/BP_Basketball_Game/BP_籃球檢查區塊.BP_籃球檢查區塊
+[2020.09.04-05.34.27:605][494]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2020.09.04-05.34.27:783][494]LogSavePackage: Moving '../../../../../../Users/IM/Desktop/2020_september_VR_Basketball/VR_Basketball/Saved/MotionControllerMap4E1B8F884E718D7F66478C845A2E1DE4.tmp' to '../../../../../../Users/IM/Desktop/2020_september_VR_Basketball/VR_Basketball/Content/VirtualRealityBP/Maps/MotionControllerMap.umap'
+[2020.09.04-05.34.27:890][494]LogSavePackage: Moving '../../../../../../Users/IM/Desktop/2020_september_VR_Basketball/VR_Basketball/Saved/MotionControllerMap_BuiltDataC10DDE8E4197A39D39312591FAA19CDA.tmp' to '../../../../../../Users/IM/Desktop/2020_september_VR_Basketball/VR_Basketball/Content/VirtualRealityBP/Maps/MotionControllerMap_BuiltData.uasset'
+[2020.09.04-05.34.27:905][494]AssetCheck: New page: Asset Save: multiple assets
+[2020.09.04-05.34.27:905][494]LogContentValidation: Display: Validating World /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap
+[2020.09.04-05.34.27:905][494]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/VirtualRealityBP/Maps/MotionControllerMap_BuiltData.MotionControllerMap_BuiltData
+[2020.09.04-05.35.05:989][984]LogUObjectHash: Compacting FUObjectHashTables data took   3.22ms
+[2020.09.04-05.35.06:159][984]LogSavePackage: Moving '../../../../../../Users/IM/Desktop/2020_september_VR_Basketball/VR_Basketball/Saved/MotionControllerMap160F38D54B7DBBFC1F969991BCC9FB9F.tmp' to '../../../../../../Users/IM/Desktop/2020_september_VR_Basketball/VR_Basketball/Content/VirtualRealityBP/Maps/MotionControllerMap.umap'
+[2020.09.04-05.35.06:261][984]LogSavePackage: Moving '../../../../../../Users/IM/Desktop/2020_september_VR_Basketball/VR_Basketball/Saved/MotionControllerMap_BuiltData09D4B2824A041EABF025678421685B4E.tmp' to '../../../../../../Users/IM/Desktop/2020_september_VR_Basketball/VR_Basketball/Content/VirtualRealityBP/Maps/MotionControllerMap_BuiltData.uasset'
+[2020.09.04-05.35.06:275][984]AssetCheck: New page: Asset Save: multiple assets
+[2020.09.04-05.35.06:275][984]LogContentValidation: Display: Validating World /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap
+[2020.09.04-05.35.06:275][984]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/VirtualRealityBP/Maps/MotionControllerMap_BuiltData.MotionControllerMap_BuiltData
+[2020.09.04-05.35.09:681][390]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2020.09.04-05.35.11:913][648]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2020.09.04-05.35.11:913][648]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.04-05.35.11:913][648]PIE: New page: SIE session: MotionControllerMap (2020年9月4日 下午9:35:11)
+[2020.09.04-05.35.11:914][648]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2020.09.04-05.35.11:923][648]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009674s)
+[2020.09.04-05.35.11:924][648]LogAIModule: Creating AISystem for world MotionControllerMap
+[2020.09.04-05.35.11:924][648]LogPlayLevel: PIE: World Init took: (0.000698s)
+[2020.09.04-05.35.11:924][648]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.010478s)
+[2020.09.04-05.35.11:951][648]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2020.09.04-05.35.11:953][648]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.04-05.35.11:954][648]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.04-05.35.11:954][648]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.04-05.35.11:954][648]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.04-05.35.11:954][648]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.04-05.35.11:954][648]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.04-05.35.11:954][648]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.04-05.35.11:954][648]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.04-05.35.11:954][648]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.04-05.35.11:954][648]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.04-05.35.11:958][648]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.09.04-05.35.11:958][648]LogAudioMixer: Display: Name: 喇叭 (Realtek(R) Audio)
+[2020.09.04-05.35.11:958][648]LogAudioMixer: Display: Is Default: Yes
+[2020.09.04-05.35.11:959][648]LogAudioMixer: Display: Sample Rate: 48000
+[2020.09.04-05.35.11:959][648]LogAudioMixer: Display: Channel Count Used: 2
+[2020.09.04-05.35.11:959][648]LogAudioMixer: Display: Device Channel Count: 2
+[2020.09.04-05.35.11:959][648]LogAudioMixer: Display: Channel Order:
+[2020.09.04-05.35.11:959][648]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.04-05.35.11:959][648]LogAudioMixer: Display: 1: FrontRight
+[2020.09.04-05.35.12:054][648]LogAudioMixer: Display: Using Audio Device 喇叭 (Realtek(R) Audio)
+[2020.09.04-05.35.12:055][648]LogInit: FAudioDevice initialized.
+[2020.09.04-05.35.12:059][648]LogLoad: Game class is 'GameModeBase'
+[2020.09.04-05.35.12:061][648]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2020.09.04-13.35.12
+[2020.09.04-05.35.12:061][648]LogWorld: Bringing up level for play took: 0.001381
+[2020.09.04-05.35.12:061][648]LogOnline: OSS: Creating online subsystem instance for: :Context_28
+[2020.09.04-05.35.12:062][648]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2020.09.04-05.35.12:064][648]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap 0.022
+[2020.09.04-05.35.12:069][648]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2020.09.04-05.35.15:682][ 64]LogEditorViewport: Clicking on Actor (LMB): BP_籃球_C (BP_籃球2)
+[2020.09.04-05.35.35:027][280]LogEditorViewport: Clicking on Actor (LMB): BP_籃球_C (BP_籃球2)
+[2020.09.04-05.35.43:247][213]LogEditorViewport: Clicking on Actor (LMB): BP_籃球_C (BP_籃球2)
+[2020.09.04-05.35.52:408][253]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：1
+[2020.09.04-05.35.54:183][466]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：2
+[2020.09.04-05.36.05:808][830]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.04-05.36.05:808][830]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.04-05.36.05:808][830]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2020.09.04-05.36.05:808][830]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.04-05.36.05:808][830]LogWorld: BeginTearingDown for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2020.09.04-05.36.05:809][830]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.04-05.36.05:809][830]LogWorld: UWorld::CleanupWorld for MotionControllerMap, bSessionEnded=true, bCleanupResources=true
+[2020.09.04-05.36.05:810][830]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.04-05.36.05:820][830]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.09.04-05.36.05:820][830]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2020.09.04-05.36.05:823][830]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.04-05.36.05:851][830]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.04-05.36.05:854][830]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.04-05.36.05:911][830]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2020.09.04-05.36.05:934][831]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2020.09.04-05.36.06:959][954]LogEditorViewport: Clicking on Actor (LMB): BP_籃球_C (BP_籃球)
+[2020.09.04-05.36.11:031][440]Cmd: TRANSACTION UNDO
+[2020.09.04-05.36.11:031][440]LogEditorTransaction: Undo Move Actors
+[2020.09.04-05.36.15:043][871]LogTemp: Repeating last play command: Simulate
+[2020.09.04-05.36.15:056][871]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2020.09.04-05.36.15:056][871]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.04-05.36.15:056][871]PIE: New page: SIE session: MotionControllerMap (2020年9月4日 下午9:36:15)
+[2020.09.04-05.36.15:056][871]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2020.09.04-05.36.15:065][871]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009519s)
+[2020.09.04-05.36.15:066][871]LogAIModule: Creating AISystem for world MotionControllerMap
+[2020.09.04-05.36.15:066][871]LogPlayLevel: PIE: World Init took: (0.000686s)
+[2020.09.04-05.36.15:066][871]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.010310s)
+[2020.09.04-05.36.15:090][871]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2020.09.04-05.36.15:093][871]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.04-05.36.15:093][871]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.04-05.36.15:093][871]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.04-05.36.15:093][871]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.04-05.36.15:093][871]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.04-05.36.15:093][871]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.04-05.36.15:093][871]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.04-05.36.15:093][871]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.04-05.36.15:094][871]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.04-05.36.15:094][871]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.04-05.36.15:098][871]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.09.04-05.36.15:098][871]LogAudioMixer: Display: Name: 喇叭 (Realtek(R) Audio)
+[2020.09.04-05.36.15:098][871]LogAudioMixer: Display: Is Default: Yes
+[2020.09.04-05.36.15:098][871]LogAudioMixer: Display: Sample Rate: 48000
+[2020.09.04-05.36.15:098][871]LogAudioMixer: Display: Channel Count Used: 2
+[2020.09.04-05.36.15:098][871]LogAudioMixer: Display: Device Channel Count: 2
+[2020.09.04-05.36.15:098][871]LogAudioMixer: Display: Channel Order:
+[2020.09.04-05.36.15:098][871]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.04-05.36.15:098][871]LogAudioMixer: Display: 1: FrontRight
+[2020.09.04-05.36.15:191][871]LogAudioMixer: Display: Using Audio Device 喇叭 (Realtek(R) Audio)
+[2020.09.04-05.36.15:192][871]LogInit: FAudioDevice initialized.
+[2020.09.04-05.36.15:198][871]LogLoad: Game class is 'GameModeBase'
+[2020.09.04-05.36.15:200][871]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2020.09.04-13.36.15
+[2020.09.04-05.36.15:200][871]LogWorld: Bringing up level for play took: 0.001421
+[2020.09.04-05.36.15:200][871]LogOnline: OSS: Creating online subsystem instance for: :Context_29
+[2020.09.04-05.36.15:201][871]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2020.09.04-05.36.15:203][871]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap -0.84
+[2020.09.04-05.36.15:207][871]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2020.09.04-05.36.16:204][984]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：1
+[2020.09.04-05.36.16:837][ 60]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：2
+[2020.09.04-05.36.17:204][104]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：3
+[2020.09.04-05.36.17:570][148]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：4
+[2020.09.04-05.36.17:721][166]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：5
+[2020.09.04-05.36.18:037][204]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：6
+[2020.09.04-05.36.18:154][218]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：7
+[2020.09.04-05.36.18:362][243]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：8
+[2020.09.04-05.36.18:479][257]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：9
+[2020.09.04-05.36.18:646][277]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：10
+[2020.09.04-05.36.18:779][293]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：11
+[2020.09.04-05.36.18:953][314]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：12
+[2020.09.04-05.36.19:179][341]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：13
+[2020.09.04-05.36.19:295][355]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：14
+[2020.09.04-05.36.19:445][373]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：15
+[2020.09.04-05.36.19:504][380]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：16
+[2020.09.04-05.36.19:654][398]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：17
+[2020.09.04-05.36.19:753][410]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：18
+[2020.09.04-05.36.19:878][425]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：19
+[2020.09.04-05.36.20:070][448]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：20
+[2020.09.04-05.36.20:178][461]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：21
+[2020.09.04-05.36.20:304][476]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：22
+[2020.09.04-05.36.20:520][502]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：23
+[2020.09.04-05.36.20:754][530]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：24
+[2020.09.04-05.36.20:812][537]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：25
+[2020.09.04-05.36.20:953][554]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：26
+[2020.09.04-05.36.21:054][566]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：27
+[2020.09.04-05.36.21:145][577]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：28
+[2020.09.04-05.36.21:270][592]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：29
+[2020.09.04-05.36.21:362][603]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：30
+[2020.09.04-05.36.21:463][615]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：31
+[2020.09.04-05.36.21:579][629]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：32
+[2020.09.04-05.36.21:704][644]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：33
+[2020.09.04-05.36.21:804][656]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：34
+[2020.09.04-05.36.21:937][672]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：35
+[2020.09.04-05.36.22:020][682]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：36
+[2020.09.04-05.36.22:162][699]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：37
+[2020.09.04-05.36.22:237][708]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：38
+[2020.09.04-05.36.22:396][727]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：39
+[2020.09.04-05.36.22:470][736]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：40
+[2020.09.04-05.36.22:604][752]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：41
+[2020.09.04-05.36.22:729][767]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：42
+[2020.09.04-05.36.22:829][779]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：43
+[2020.09.04-05.36.22:929][791]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：44
+[2020.09.04-05.36.23:045][805]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：45
+[2020.09.04-05.36.23:171][820]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：46
+[2020.09.04-05.36.23:288][834]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：47
+[2020.09.04-05.36.23:387][846]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：48
+[2020.09.04-05.36.23:521][862]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：49
+[2020.09.04-05.36.23:629][875]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：50
+[2020.09.04-05.36.23:720][886]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：51
+[2020.09.04-05.36.23:820][898]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：52
+[2020.09.04-05.36.23:945][913]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：53
+[2020.09.04-05.36.24:029][923]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：54
+[2020.09.04-05.36.24:171][940]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：55
+[2020.09.04-05.36.24:246][949]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：56
+[2020.09.04-05.36.24:412][969]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：57
+[2020.09.04-05.36.24:495][979]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：58
+[2020.09.04-05.36.24:662][999]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：59
+[2020.09.04-05.36.24:753][ 10]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：60
+[2020.09.04-05.36.24:896][ 27]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：61
+[2020.09.04-05.36.25:004][ 40]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：62
+[2020.09.04-05.36.25:112][ 53]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：63
+[2020.09.04-05.36.25:229][ 67]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：64
+[2020.09.04-05.36.25:337][ 80]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：65
+[2020.09.04-05.36.25:445][ 93]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：66
+[2020.09.04-05.36.25:595][111]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：67
+[2020.09.04-05.36.25:704][124]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：68
+[2020.09.04-05.36.25:837][140]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：69
+[2020.09.04-05.36.25:937][152]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：70
+[2020.09.04-05.36.26:071][168]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：71
+[2020.09.04-05.36.26:187][182]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：72
+[2020.09.04-05.36.26:321][198]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：73
+[2020.09.04-05.36.26:421][210]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：74
+[2020.09.04-05.36.26:562][227]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：75
+[2020.09.04-05.36.26:763][251]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：76
+[2020.09.04-05.36.26:870][264]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：77
+[2020.09.04-05.36.27:012][281]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：78
+[2020.09.04-05.36.27:138][296]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：79
+[2020.09.04-05.36.27:279][313]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：80
+[2020.09.04-05.36.27:421][330]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：81
+[2020.09.04-05.36.27:529][343]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：82
+[2020.09.04-05.36.27:654][358]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：83
+[2020.09.04-05.36.27:770][372]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：84
+[2020.09.04-05.36.27:879][385]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：85
+[2020.09.04-05.36.27:996][399]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：86
+[2020.09.04-05.36.28:120][414]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：87
+[2020.09.04-05.36.28:246][429]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：88
+[2020.09.04-05.36.28:354][442]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：89
+[2020.09.04-05.36.28:546][465]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：90
+[2020.09.04-05.36.28:795][495]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：91
+[2020.09.04-05.36.28:879][505]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：92
+[2020.09.04-05.36.29:029][523]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：93
+[2020.09.04-05.36.29:179][541]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：94
+[2020.09.04-05.36.29:437][572]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：95
+[2020.09.04-05.36.29:604][592]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：96
+[2020.09.04-05.36.29:862][623]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：97
+[2020.09.04-05.36.29:995][639]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：98
+[2020.09.04-05.36.30:137][656]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：99
+[2020.09.04-05.36.30:263][671]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：100
+[2020.09.04-05.36.30:429][691]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：101
+[2020.09.04-05.36.30:538][704]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：102
+[2020.09.04-05.36.30:695][723]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：103
+[2020.09.04-05.36.30:821][738]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：104
+[2020.09.04-05.36.30:979][757]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：105
+[2020.09.04-05.36.31:079][769]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：106
+[2020.09.04-05.36.31:862][863]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：107
+[2020.09.04-05.36.32:104][892]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：108
+[2020.09.04-05.36.32:304][916]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：109
+[2020.09.04-05.36.32:463][935]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：110
+[2020.09.04-05.36.32:604][952]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：111
+[2020.09.04-05.36.32:746][969]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：112
+[2020.09.04-05.36.32:921][990]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：113
+[2020.09.04-05.36.33:012][  1]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：114
+[2020.09.04-05.36.33:187][ 22]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：115
+[2020.09.04-05.36.33:313][ 37]LogBlueprintUserMessages: [BP_籃球檢查區塊_4] 進球數量：116
+[2020.09.04-05.36.35:330][269]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2020.09.04-05.36.35:503][269]LogSavePackage: Moving '../../../../../../Users/IM/Desktop/2020_september_VR_Basketball/VR_Basketball/Saved/MotionControllerMapCA6AE0B54A3ADA01936056AA94E86740.tmp' to '../../../../../../Users/IM/Desktop/2020_september_VR_Basketball/VR_Basketball/Content/VirtualRealityBP/Maps/MotionControllerMap.umap'
+[2020.09.04-05.36.35:605][269]LogSavePackage: Moving '../../../../../../Users/IM/Desktop/2020_september_VR_Basketball/VR_Basketball/Saved/MotionControllerMap_BuiltData6BE62D434B80D0138C92DD8B48B88B69.tmp' to '../../../../../../Users/IM/Desktop/2020_september_VR_Basketball/VR_Basketball/Content/VirtualRealityBP/Maps/MotionControllerMap_BuiltData.uasset'
+[2020.09.04-05.36.35:616][269]AssetCheck: New page: Asset Save: multiple assets
+[2020.09.04-05.36.35:616][269]LogContentValidation: Display: Validating World /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap
+[2020.09.04-05.36.35:616][269]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/VirtualRealityBP/Maps/MotionControllerMap_BuiltData.MotionControllerMap_BuiltData
+[2020.09.04-05.36.36:059][320]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.04-05.36.36:059][320]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.04-05.36.36:059][320]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2020.09.04-05.36.36:059][320]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.04-05.36.36:059][320]LogWorld: BeginTearingDown for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2020.09.04-05.36.36:060][320]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.04-05.36.36:060][320]LogWorld: UWorld::CleanupWorld for MotionControllerMap, bSessionEnded=true, bCleanupResources=true
+[2020.09.04-05.36.36:061][320]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.04-05.36.36:067][320]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.09.04-05.36.36:067][320]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2020.09.04-05.36.36:071][320]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.04-05.36.36:097][320]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.09.04-05.36.36:100][320]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.04-05.36.36:104][320]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2020.09.04-05.36.36:159][324]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2020.09.04-05.36.38:217][554]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
